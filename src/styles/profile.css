@@ -1,0 +1,11 @@
+.app-container {
+  height: 100vh;
+}
+
+.app-profile {
+  padding: 80px;
+  z-index: 2;
+  width: 66%;
+  position: relative;
+  left: 33%;
+}
