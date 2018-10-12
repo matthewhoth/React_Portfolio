@@ -6,7 +6,10 @@
     "location": "location",
     "github": "matthew-yinuo"
   },
-  "profile": {
-    "title": "Matthew Hoth"
+  "intro": {
+    "title": "Matthew Hoth",
+    "blurb": "Hi, there! I'm Matthew Hoth, and I'm a front-end web developer based in Hualien, Taiwan. Don't let my employment stop you from",
+    "link": "  getting in touch",
+    "blurb2": " for open source assistance."
   }
 }
