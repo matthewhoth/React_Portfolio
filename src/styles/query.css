@@ -1,0 +1,100 @@
+@media (max-width: 12999px) {
+  .app-portfolio-container {
+    width: 33%;
+    position: absolute;
+    height: 100vh;
+    left: 0;
+  }
+}
+@media (max-width: 1299px) {
+}
+
+/*
+
+    Max Width: 1024px
+
+*/
+
+@media (max-width: 1024px) {
+  .app-portfolio-container {
+    display: block;
+    width: 100%;
+    height: 500px;
+    position: relative;
+  }
+
+  .app-profile {
+    display: block;
+    width: 100%;
+    left: 0;
+  }
+}
+
+/*
+
+    Max Width: 659px
+
+*/
+
+@media (max-width: 659px) {
+  .portfolio-contact ul li {
+    margin: 2.5px;
+  }
+
+  .portfolio-contact-list li {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    transition: 0.2s ease-in-out;
+  }
+
+  .portfolio-contact-list a {
+    padding: 10px;
+  }
+
+  .portfolio-contact-list i {
+    font-size: medium;
+    margin-right: 0;
+  }
+  .portfolio-contact-list li:hover {
+    color: rgba(255, 255, 255, 0.55);
+    transition: 0.2s ease-in-out;
+  }
+
+  .i-label {
+    display: none;
+  }
+}
+
+@media (max-width: 499px) {
+}
+
+@media (max-width: 449px) {
+  .app-profile {
+    padding: 60px 40px 40px 40px;
+  }
+}
+
+@media (max-width: 399px) {
+  .resume-download {
+    padding: 10px;
+  }
+  .portfolio-title-top {
+    margin-bottom: -20px;
+  }
+
+  .portfolio-title-upper {
+    display: block;
+    margin-bottom: -10px;
+  }
+
+  .portfolio-title-lower {
+    margin-left: 10px;
+  }
+
+  .portfolio-title h1 {
+    font-size: 50px;
+  }
+}
