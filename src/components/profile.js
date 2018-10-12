@@ -1,6 +1,7 @@
 import React from "react";
 import Portfolio from "./portfolio";
 import Intro from "./intro";
+import Tools from "./tools";
 
 export default class Profile extends React.PureComponent {
   render() {
@@ -26,7 +27,7 @@ export default class Profile extends React.PureComponent {
           <a name="top" />
           <article className="app-profile">
             <Intro />
-            <div>Tools</div>
+            <Tools />
             <div>Experience</div>
             <div>Skills</div>
             <div>Extra</div>

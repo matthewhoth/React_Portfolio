@@ -5,8 +5,9 @@ import "./styles/profile.css";
 import "./styles/portfolio.css";
 import "./styles/fonts.css";
 import "./styles/query.css";
-import "./styles/simplebar.css";
+import "./styles/bar.css";
 import "./styles/intro.css";
+import "./styles/tools.css";
 import { translate } from "react-i18next";
 
 export const App = () => (
