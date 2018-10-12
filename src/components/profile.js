@@ -3,6 +3,7 @@ import Portfolio from "./portfolio";
 import Intro from "./intro";
 import Tools from "./tools";
 import Experience from "./experience";
+import Skills from "./skills";
 
 export default class Profile extends React.PureComponent {
   render() {
@@ -30,7 +31,7 @@ export default class Profile extends React.PureComponent {
             <Intro />
             <Tools />
             <Experience />
-            <div>Skills</div>
+            <Skills />
             <div>Extra</div>
           </article>
         </div>
