@@ -106,3 +106,61 @@
     font-size: 50px;
   }
 }
+
+@media (max-height: 499px) {
+  .app-portfolio-container {
+    height: 100vh;
+  }
+}
+
+@media (max-height: 449px) {
+  .app-portfolio {
+    padding: 40px;
+  }
+
+  .resume-download {
+    padding: 10px;
+  }
+
+  .portfolio-title {
+    margin-top: -10px;
+  }
+  .portfolio-title h1 {
+    font-size: 50px;
+  }
+
+  .portfolio-title-top {
+    margin-bottom: -20px;
+  }
+
+  .portfolio-title-upper {
+    display: block;
+    margin-bottom: -10px;
+  }
+
+  .portfolio-title-lower {
+    margin-left: 10px;
+  }
+}
+
+@media (max-height: 379px) {
+  .app-portfolio {
+    padding: 20px;
+  }
+
+  .app-profile {
+    padding: 60px 40px 40px 40px;
+  }
+}
+
+@media (max-height: 299px) {
+  .app-portfolio {
+    padding: 20px;
+  }
+}
+
+@media (max-height: 249px) {
+  .app-portfolio-container {
+    height: 249px;
+  }
+}
