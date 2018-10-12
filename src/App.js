@@ -6,7 +6,7 @@ import "./styles/portfolio.css";
 import "./styles/fonts.css";
 import "./styles/query.css";
 import "./styles/bar.css";
-import "./styles/intro.css";
+import "./styles/sections.css";
 import "./styles/tools.css";
 import { translate } from "react-i18next";
 
