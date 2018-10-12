@@ -4,6 +4,7 @@ import Intro from "./intro";
 import Tools from "./tools";
 import Experience from "./experience";
 import Skills from "./skills";
+import Project from "./projects";
 
 export default class Profile extends React.PureComponent {
   render() {
@@ -32,7 +33,7 @@ export default class Profile extends React.PureComponent {
             <Tools />
             <Experience />
             <Skills />
-            <div>Extra</div>
+            <Project />
           </article>
         </div>
       </main>
