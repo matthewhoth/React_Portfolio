@@ -1,0 +1,93 @@
+.project + .project {
+  margin-top: 40px;
+}
+
+.working {
+  background-image: url("../images/bg.jpg");
+}
+
+.project-image {
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 200px;
+  width: 100%;
+}
+.project-image::before {
+  content: "";
+  background-color: #fb6107;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  transition: 0.4s ease-in-out;
+  z-index: 0;
+  opacity: 0.4;
+}
+.project-image:hover::before {
+  content: "";
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  transition: 0.4s ease-in-out;
+  z-index: 1;
+}
+
+.project-tech {
+  background-color: blue transparent;
+  bottom: 0;
+  color: white;
+  display: inline-block;
+  padding: 7.5px;
+  position: absolute;
+  left: 0;
+  text-align: center;
+  z-index: 999;
+}
+.project-tech i {
+  font-size: 22px;
+  transition: 0.2s ease-in-out;
+}
+.project-tech i:hover {
+  color: rgba255, 255, 255, 0.55;
+  cursor: help;
+  transition: 0.2s ease-in-out;
+}
+
+.project-tech li {
+  display: inline-block;
+  padding: 3.5px;
+}
+
+.project-description {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  justify-content: flex-end;
+  font-size: small;
+  letter-spacing: medium;
+  padding: 20px 0;
+}
+
+.project-name {
+  display: flex;
+  font-weight: bold;
+}
+
+.project-details {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.project-details li i {
+  display: inline-block;
+  color: red;
+  font-size: small;
+}
+
+.project-details li + li {
+  margin-left: 20px;
+}

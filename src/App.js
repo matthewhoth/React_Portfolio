@@ -8,6 +8,7 @@ import "./styles/query.css";
 import "./styles/bar.css";
 import "./styles/sections.css";
 import "./styles/tools.css";
+import "./styles/projects.css";
 import { translate } from "react-i18next";
 
 export const App = () => (
