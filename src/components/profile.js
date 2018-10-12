@@ -1,10 +1,11 @@
+import React from "react";
+
 export default class Profile extends React.PureComponent {
   render() {
     return (
       <main>
         <div className="app-container">
           <a name="top-mobile" />
-          <Portfolio />
           <a name="top" />
           <article className="app-profile">
             <div>Intro</div>
