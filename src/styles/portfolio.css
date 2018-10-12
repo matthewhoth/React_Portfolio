@@ -2,9 +2,10 @@
   box-sizing: border-box;
 }
 
-a {
+li a {
   text-decoration: none;
   background-color: transparent;
+  font-size: 12px;
 }
 
 h1 {
