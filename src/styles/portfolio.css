@@ -1,0 +1,215 @@
+* {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+  background-color: transparent;
+}
+
+h1 {
+  font-family: Great Vibes, Helvetica, sans-serif;
+  font-size: 60px;
+  padding: 0;
+  margin: 0;
+}
+
+.app-portfolio-container {
+  display: block;
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+
+.app-portfolio-container {
+  width: 33%;
+  position: absolute;
+  height: 100vh;
+  left: 0;
+}
+
+.app-portfolio {
+  -moz-align-items: center;
+  -moz-flex-direction: column;
+  -moz-justify-content: center;
+  -ms-align-items: center;
+  -ms-flex-direction: column;
+  -ms-flex-pack: center;
+  -ms-justify-content: center;
+  -webkit-align-items: center;
+  -webkit-flex-direction: column;
+  -webkit-justify-content: center;
+  align-items: center;
+  background-image: url(../images/bg.jpg);
+  background-position: 50%;
+  background-size: cover;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  padding: 60px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  z-index: 0;
+}
+
+.app-portfolio i {
+  margin-right: 5px;
+  width: 20px;
+}
+
+.app-portfolio::after {
+  background-color: rgba(34, 148, 159, 0.75);
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.portfolio-resume {
+  color: white;
+  padding: 20px;
+  z-index: 2;
+}
+
+.resume-download {
+  border: 1px solid white;
+  font-size: small;
+  letter-spacing: large;
+  padding: 20px;
+  text-transform: uppercase;
+  transition: 0.2s ease-in-out;
+  white-space: nowrap;
+}
+
+.resume-download :hover {
+  background-color: white;
+  color: red;
+  cursor: pointer;
+  letter-spacing: 4px;
+  transition: 0.2s ease-in-out;
+}
+
+.btn {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 0.5em;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  padding: 20px;
+  text-decoration: none;
+  text-align: center;
+}
+.btn:hover,
+.btn:focus {
+  color: white;
+  font-weight: 800;
+  outline: 0;
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+
+  box-shadow: 0 0 40px 40px #e74c3c inset;
+}
+
+.portfolio-title-container {
+  display: flex;
+  flex: 1;
+}
+
+.portfolio-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+}
+
+.portfolio-title-top {
+  color: #fafafa;
+  font-weight: 300;
+  line-height: 60px;
+  margin-left: -20px;
+  padding-left: -30px;
+  transform: skewY(-5deg);
+  transition: 0.2s ease-in-out;
+  white-space: nowrap;
+  width: 270px;
+}
+
+.portfolio-title-upper {
+  display: block;
+}
+.portfolio-title-lower {
+  margin-left: 10px;
+}
+.portfolio-contact {
+  color: white;
+  font-size: xxsmall;
+  letter-spacing: large;
+  text-transform: uppercase;
+  width: 100%;
+  z-index: 2;
+}
+
+.portfolio-contact .i-label {
+  border-bottom: 1px solid transparent;
+  padding-bottom: 1px;
+  transition: 0.2s ease-in-out;
+}
+.portfolio-contact a:hover .i-label {
+  border-bottom: 1px solid white;
+  transition: 0.2s ease-in-out;
+}
+
+.portfolio-contact ul li {
+  margin: 10px;
+  white-space: nowrap;
+  color: white;
+}
+
+.portfolio-contact a {
+  color: white;
+}
+
+.portfolio-contact ul {
+  -moz-align-items: center;
+  -moz-flex-direction: row;
+  -moz-flex-wrap: wrap;
+  -moz-justify-content: center;
+  -ms-align-items: center;
+  -ms-flex-direction: row;
+  -ms-flex-pack: center;
+  -ms-flex-wrap: wrap;
+  -ms-justify-content: center;
+  -webkit-align-items: center;
+  -webkit-flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -webkit-justify-content: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.i-label {
+  transition: 0.2s ease-in-out;
+}
