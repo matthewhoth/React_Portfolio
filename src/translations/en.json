@@ -18,5 +18,8 @@
     "front": "Front-End",
     "back": "Back-End",
     "vc": "Version Control"
+  },
+  "exp": {
+    "title": "Experience"
   }
 }
