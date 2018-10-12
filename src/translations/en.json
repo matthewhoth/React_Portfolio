@@ -21,5 +21,9 @@
   },
   "exp": {
     "title": "Experience"
+  },
+  "pa": {
+    "title": "Personal Accomplishments",
+    "trip": "Experience"
   }
 }
