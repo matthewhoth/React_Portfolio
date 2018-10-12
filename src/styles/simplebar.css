@@ -1,0 +1,16 @@
+.simplebar-scrollbar:before {
+  background-color: #fb8b24;
+}
+
+.simplebar-track .simplebar-scrollbar.visible:before {
+  opacity: 0.8;
+}
+
+.simplebar-track.horizontal {
+  display: none !important;
+}
+
+.simplebar-scroll-content {
+  padding-bottom: 0 !important;
+  overflow-x: hidden;
+}

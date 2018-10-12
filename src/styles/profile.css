@@ -9,3 +9,17 @@
   position: relative;
   left: 33%;
 }
+
+.sticky-button i:hover {
+  cursor: pointer;
+}
+
+.sticky-button i {
+  color: white;
+  font-size: normal;
+  transition: 0.2s ease-in-out;
+}
+
+.sticky-mobile {
+  display: none;
+}

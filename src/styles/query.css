@@ -28,6 +28,14 @@
     width: 100%;
     left: 0;
   }
+
+  .sticky-default {
+    display: none;
+  }
+
+  .sticky-mobile {
+    display: block;
+  }
 }
 
 /*
