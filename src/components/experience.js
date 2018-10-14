@@ -16,7 +16,7 @@ export default class Experience extends React.PureComponent {
             </div>
             <div className="bulleted content-subheader timeline-subheader">
               <div className="subheader-title">
-                <a className="profile-a" href="#" target="_blank">
+                <a className="profile-a" href="google.com" target="_blank">
                   Work Place 1
                 </a>
               </div>
@@ -30,7 +30,7 @@ export default class Experience extends React.PureComponent {
             </div>
             <div className="bulleted content-subheader timeline-subheader">
               <div className="subheader-title">
-                <a className="profile-a" href="#" target="_blank">
+                <a className="profile-a" href="google.com" target="_blank">
                   Work Place 2
                 </a>
               </div>
@@ -44,7 +44,7 @@ export default class Experience extends React.PureComponent {
             </div>
             <div className="bulleted content-subheader timeline-subheader">
               <div className="subheader-title">
-                <a className="profile-a" href="#" target="_blank">
+                <a className="profile-a" href="google.com" target="_blank">
                   Work Place 3
                 </a>
               </div>
@@ -58,7 +58,7 @@ export default class Experience extends React.PureComponent {
             </div>
             <div className="bulleted content-subheader timeline-subheader">
               <div className="subheader-title">
-                <a className="profile-a" href="#" target="_blank">
+                <a className="profile-a" href="google.com" target="_blank">
                   Work Place 4
                 </a>
               </div>

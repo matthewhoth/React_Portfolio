@@ -58,14 +58,22 @@ export default class Project extends React.PureComponent {
                 <ul className="project-details">
                   <li>
                     <span className="project-details-label">
-                      <a className="profile-a" href="#" target="_blank">
+                      <a
+                        className="profile-a"
+                        href="google.com"
+                        target="_blank"
+                      >
                         Live
                       </a>
                     </span>
                   </li>
                   <li>
                     <span className="project-details-label">
-                      <a className="profile-a" href="#" target="_blank">
+                      <a
+                        className="profile-a"
+                        href="google.com"
+                        target="_blank"
+                      >
                         Source
                       </a>
                     </span>
