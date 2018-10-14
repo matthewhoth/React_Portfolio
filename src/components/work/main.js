@@ -1,13 +1,18 @@
 import React from "react";
 import LeftButton from "./leftbutton";
 import RightButton from "./rightbutton";
+import ProjectPicture from "./projectpicture.js";
 export default class Main extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { counter: 1 };
+    this.state = { counter: 1, rightActive: false, leftActive: false };
   }
 
   handleNext() {
+    this.setState({
+      rightActive: false,
+      leftActive: true
+    });
     if (this.state.counter < 5) {
       this.setState({
         counter: this.state.counter + 1
@@ -22,6 +27,10 @@ export default class Main extends React.Component {
   }
 
   handleLast() {
+    this.setState({
+      leftActive: false,
+      rightActive: true
+    });
     if (this.state.counter > 1) {
       this.setState({
         counter: this.state.counter - 1
@@ -38,6 +47,10 @@ export default class Main extends React.Component {
     return (
       <main className="project-portfolio">
         <div className="wrapper">
+          <ProjectPicture
+            counter={this.state.counter}
+            rightActive={this.state.rightActive}
+          />
           <LeftButton
             counter={this.state.counter}
             click={this.handleNext.bind(this)}
@@ -46,7 +59,6 @@ export default class Main extends React.Component {
             counter={this.state.counter}
             click={this.handleLast.bind(this)}
           />
-          <div className="content">3</div>
           <div>4</div>
         </div>
       </main>
