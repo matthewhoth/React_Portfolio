@@ -1,0 +1,41 @@
+.project-port {
+  display: grid;
+  overflow: hidden;
+  grid-template-columns: repeat(24, 1fr);
+  grid-template-rows: repeat(24, 1fr);
+  transition: all 0.375s ease-in-out;
+  min-height: 100vh;
+}
+
+.wrapper > * {
+  background-color: #dddbf1;
+  border-radius: 1px;
+  padding: 10px;
+}
+
+.wrapper {
+  grid-column: 1 / span 24;
+  grid-row: 1 / span 24;
+  display: grid;
+  overflow: hidden;
+  grid-template-columns: repeat(12, [col-start] 1fr);
+}
+
+@media (min-width: 200px) {
+  .wrapper {
+    grid-gap: 5px;
+  }
+}
+
+@media (min-width: 500px) {
+  .wrapper {
+    grid-gap: 5px;
+  }
+}
+
+@media (min-width: 700px) {
+  .wrapper {
+    grid-gap: 0px;
+    grid-template-rows: repeat(12, [row-start] 1fr);
+  }
+}
