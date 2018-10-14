@@ -5,13 +5,12 @@ import ProjectPicture from "./projectpicture.js";
 export default class Main extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { counter: 1, rightActive: false, leftActive: false };
+    this.state = { counter: 1, rightActive: false };
   }
 
   handleNext() {
     this.setState({
-      rightActive: false,
-      leftActive: true
+      rightActive: false
     });
     if (this.state.counter < 5) {
       this.setState({
@@ -28,7 +27,6 @@ export default class Main extends React.Component {
 
   handleLast() {
     this.setState({
-      leftActive: false,
       rightActive: true
     });
     if (this.state.counter > 1) {
