@@ -9,7 +9,6 @@
 # production
 /build
 
-images/
 
 /public/assets
 
