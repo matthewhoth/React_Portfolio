@@ -9,7 +9,7 @@ export const App = () => (
   <BrowserRouter>
     <Switch>
       <Route exact={true} path="/" component={Profile} />
-      <Route exact={true} path="/work" component={Main} />
+      <Route exact={true} path="/projects" component={Main} />
     </Switch>
   </BrowserRouter>
 );
