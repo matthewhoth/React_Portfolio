@@ -1,0 +1,103 @@
+@media (min-width: 200px) {
+  .UpButton {
+    grid-column: col-start / span 2;
+    grid-row: 1 / span 3;
+    background-color: #c3c3c8 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+  }
+  .DownButton {
+    grid-column: col-start 11 / span 2;
+    grid-row: 1 / span 3;
+    z-index: 900;
+    background-color: #c3c3c8 !important;
+  }
+  .content {
+    grid-column: col-start / span 12;
+    grid-row: 2 / span 1;
+  }
+}
+
+@media (min-width: 500px) {
+  .UpButton {
+    grid-column: col-start 10 / span 3;
+    grid-row: 4 / span 1;
+  }
+  .DownButton {
+    grid-column: col-start 10 / span 3;
+    grid-row: 5 / span 1;
+  }
+  .content {
+    grid-column: col-start / span 12;
+    grid-row: 2 / span 2;
+  }
+}
+
+@media (min-width: 700px) {
+  .UpButton {
+    grid-column: col-start 7 / span 3;
+    grid-row: 9 / span 4;
+  }
+  .DownButton {
+    grid-column: col-start 10 / span 3;
+    grid-row: 9 / span 4;
+    z-index: 9999;
+  }
+}
+
+aside img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.UpButton {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.DownButton {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.pictureL1 {
+  background-image: url("/assets/lyricaltint.png");
+}
+.pictureL2 {
+  background-image: url("/assets/cryptotint.png");
+}
+.pictureL3 {
+  background-image: url("/assets/weathertint.png");
+}
+.pictureL4 {
+  background-image: url("/assets/logintint.png");
+}
+.pictureL5 {
+  background-image: url("/assets/youtubetint.png");
+}
+
+.pictureR1 {
+  background-image: url("/assets/lyricaltintd.png");
+}
+.pictureR2 {
+  background-image: url("/assets/cryptotintd.png");
+}
+.pictureR3 {
+  background-image: url("/assets/weathertintd.png");
+}
+.pictureR4 {
+  background-image: url("/assets/logintintd.png");
+}
+.pictureR5 {
+  background-image: url("/assets/youtubetintd.png");
+}

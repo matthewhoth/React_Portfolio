@@ -4,6 +4,8 @@ import Profile from "./components/profile.js";
 import Main from "./components/work/main";
 import "./styles/profile.css";
 import "./styles/portfolio.css";
+import "./styles/portfolio-buttons.css";
+import "./styles/project-portfolio.css";
 import "./styles/fonts.css";
 import "./styles/query.css";
 import "./styles/bar.css";
