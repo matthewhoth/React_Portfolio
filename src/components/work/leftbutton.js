@@ -5,7 +5,7 @@ export default class LeftButton extends React.PureComponent {
     return (
       <aside
         onClick={this.props.click}
-        className={`side pictureL${
+        className={`UpButton pictureL${
           this.props.counter !== 5 ? this.props.counter + 1 : 1
         }`}
       />

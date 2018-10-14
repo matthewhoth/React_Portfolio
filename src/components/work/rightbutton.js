@@ -5,7 +5,7 @@ export default class RightButton extends React.PureComponent {
     return (
       <div
         onClick={this.props.click}
-        className={`ad pictureR${
+        className={`DownButton pictureR${
           this.props.counter !== 1 ? this.props.counter - 1 : 5
         }`}
       />
