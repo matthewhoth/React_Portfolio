@@ -9,6 +9,10 @@
   margin: 0;
 }
 
+.goodbye {
+  display: none !important;
+}
+
 .wrapper > * {
   background-color: #dddbf1;
   border-radius: 1px;
