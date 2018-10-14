@@ -71,33 +71,33 @@ aside img {
 }
 
 .pictureL1 {
-  background-image: url("/assets/lyricaltint.png");
+  background-image: url("../images/lyricaltint.png");
 }
 .pictureL2 {
-  background-image: url("/assets/cryptotint.png");
+  background-image: url("../images/cryptotint.png");
 }
 .pictureL3 {
-  background-image: url("/assets/weathertint.png");
+  background-image: url("../images/weathertint.png");
 }
 .pictureL4 {
-  background-image: url("/assets/logintint.png");
+  background-image: url("../images/logintint.png");
 }
 .pictureL5 {
-  background-image: url("/assets/youtubetint.png");
+  background-image: url("../images/youtubetint.png");
 }
 
 .pictureR1 {
-  background-image: url("/assets/lyricaltintd.png");
+  background-image: url("../images/lyricaltintd.png");
 }
 .pictureR2 {
-  background-image: url("/assets/cryptotintd.png");
+  background-image: url("../images/cryptotintd.png");
 }
 .pictureR3 {
-  background-image: url("/assets/weathertintd.png");
+  background-image: url("../images/weathertintd.png");
 }
 .pictureR4 {
-  background-image: url("/assets/logintintd.png");
+  background-image: url("../images/logintintd.png");
 }
 .pictureR5 {
-  background-image: url("/assets/youtubetintd.png");
+  background-image: url("../images/youtubetintd.png");
 }
