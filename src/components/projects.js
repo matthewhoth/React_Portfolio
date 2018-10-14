@@ -8,7 +8,7 @@ export default class Project extends React.PureComponent {
         <h2>
           <Trans i18nKey="pro.title" />
         </h2>
-        <Link to={`/work`}>
+        <Link to={`/projects`}>
           <ul>
             <li className="project">
               <div className="project-image working">
@@ -76,7 +76,7 @@ export default class Project extends React.PureComponent {
                 <Trans i18nKey="pro.lorem-text" />
               </p>
             </li>
-          </ul>{" "}
+          </ul>
         </Link>
       </section>
     );
