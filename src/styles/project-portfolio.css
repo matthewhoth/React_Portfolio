@@ -5,12 +5,15 @@
   grid-template-rows: repeat(24, 1fr);
   transition: all 0.375s ease-in-out;
   min-height: 100vh;
+  background-color: #333333;
+  margin: 0;
 }
 
 .wrapper > * {
   background-color: #dddbf1;
   border-radius: 1px;
   padding: 10px;
+  box-sizing: border-box;
 }
 
 .wrapper {
