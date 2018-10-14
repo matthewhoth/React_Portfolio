@@ -46,7 +46,7 @@ export default class Main extends React.Component {
             counter={this.state.counter}
             click={this.handleLast.bind(this)}
           />
-          <div>3</div>
+          <div className="content">3</div>
           <div>4</div>
         </div>
       </main>
