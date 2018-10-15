@@ -10,3 +10,4 @@ import "./rightside.css";
 import "./sections.css";
 import "./tools.css";
 import "./projects.css";
+import "./projectinfo.css";

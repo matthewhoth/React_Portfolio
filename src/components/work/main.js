@@ -2,6 +2,7 @@ import React from "react";
 import LeftButton from "./leftbutton";
 import RightButton from "./rightbutton";
 import ProjectPicture from "./projectpicture.js";
+import ProjectInfo from "./projectinfo";
 export default class Main extends React.Component {
   constructor(props) {
     super(props);
@@ -45,6 +46,10 @@ export default class Main extends React.Component {
     return (
       <main className="project-portfolio">
         <div className="wrapper">
+          <ProjectInfo
+            counter={this.state.counter}
+            rightActive={this.state.rightActive}
+          />
           <ProjectPicture
             counter={this.state.counter}
             rightActive={this.state.rightActive}
@@ -57,7 +62,6 @@ export default class Main extends React.Component {
             counter={this.state.counter}
             click={this.handleLast.bind(this)}
           />
-          <div>4</div>
         </div>
       </main>
     );
