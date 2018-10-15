@@ -36,12 +36,12 @@ export default class ProjectInfo extends React.PureComponent {
             <div className="sprite mongo" />
           </div>
           <div className="view site">
-            <a href="#" title="Go to website.com" target="_blank">
+            <a href="google.com" title="Go to website.com" target="_blank">
               view live website
             </a>
           </div>
           <div className="view code">
-            <a href="#" title="view code">
+            <a href="google.com" title="view code">
               view code
             </a>
           </div>
@@ -75,12 +75,12 @@ export default class ProjectInfo extends React.PureComponent {
             <div className="sprite flexbox" />
           </div>
           <div className="view site">
-            <a href="#" title="#" target="_blank">
+            <a href="google.com" title="google.com" target="_blank">
               view live website
             </a>
           </div>
           <div className="view code">
-            <a href="#" title="view code">
+            <a href="google.com" title="view code">
               view code
             </a>
           </div>
@@ -110,12 +110,12 @@ export default class ProjectInfo extends React.PureComponent {
             <div className="sprite redux" />
           </div>
           <div className="view site">
-            <a href="#" title="#" target="_blank">
+            <a href="google.com" title="google.com" target="_blank">
               view live website
             </a>
           </div>
           <div className="view project">
-            <a href="#" title="view project">
+            <a href="google.com" title="view project">
               view project
             </a>
           </div>
@@ -146,12 +146,12 @@ export default class ProjectInfo extends React.PureComponent {
             <div className="sprite node" />
           </div>
           <div className="view site">
-            <a href="#" title="#" target="_blank">
+            <a href="google.com" title="google.com" target="_blank">
               view live website
             </a>
           </div>
           <div className="view project">
-            <a href="#" title="view project">
+            <a href="google.com" title="view project">
               view project
             </a>
           </div>
@@ -181,12 +181,12 @@ export default class ProjectInfo extends React.PureComponent {
             <div className="sprite redux" />
           </div>
           <div className="view site">
-            <a href="#" title="#" target="_blank">
+            <a href="google.com" title="google.com" target="_blank">
               view live website
             </a>
           </div>
           <div className="view code">
-            <a href="#" title="view code">
+            <a href="google.com" title="view code">
               view code
             </a>
           </div>

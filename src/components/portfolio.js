@@ -2,18 +2,40 @@ import React from "react";
 import { Trans } from "react-i18next";
 import i18n from "i18next";
 
+var images = [
+  "../images/lyricaltint.png",
+  "../images/cryptotint.png",
+  "../images/weathertint.png",
+  "../images/logintint.png",
+  "../images/youtubetint.png",
+  "../images/lyricaltintd.png",
+  "../images/cryptotintd.png",
+  "../images/weathertintd.png",
+  "../images/logintintd.png",
+  "../images/youtubetintd.png"
+];
 export default class Portfolio extends React.PureComponent {
   render() {
     return (
       <header className="app-portfolio-container">
         <div className="app-portfolio">
           <section className="portfolio-resume">
+            <div class="ribbon ribbon-top-left">
+              <span
+                onClick={() =>
+                  i18n.language === "en"
+                    ? i18n.changeLanguage("ch")
+                    : i18n.changeLanguage("en")
+                }
+              >
+                <Trans i18nKey="welcome.language" />
+              </span>
+            </div>
+
             <button className="resume-download btn">
               <i className="fas fa-download" />
               <Trans i18nKey="welcome.resume" />
             </button>
-            <button onClick={() => i18n.changeLanguage("ch")}>ch</button>
-            <button onClick={() => i18n.changeLanguage("en")}>en</button>
           </section>
           <section className="portfolio-title-container">
             <div className="portfolio-title">
