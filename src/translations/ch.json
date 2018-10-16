@@ -38,5 +38,8 @@
   },
   "info": {
     "fullstack": "全棧歌詞"
+  },
+  "commits": {
+    "title": "最近的Github提交"
   }
 }
