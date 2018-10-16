@@ -42,7 +42,7 @@
     flex-direction: row;
     display: flex;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
   .sprite {
     height: 50px;
