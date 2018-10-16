@@ -1,8 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Trans } from "react-i18next";
+
 export default class Project extends React.PureComponent {
   render() {
+    console.log(this.props.language);
     return (
       <section className="profile-section">
         <h2>
@@ -11,7 +13,10 @@ export default class Project extends React.PureComponent {
         <Link to={`/projects`}>
           <ul>
             <li className="project">
-              <div className="project-image working">
+              <div
+                className="project-image working"
+                className={`project-image preview-${this.props.language}`}
+              >
                 <ul className="project-tech">
                   <li>
                     <i className="devicon-html5-plain" title="HTML5" />
