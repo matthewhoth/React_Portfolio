@@ -53,6 +53,9 @@
     font-weight: 700;
     margin: 0 0 0.5em 0;
   }
+  .animated {
+    min-width: 80vw;
+  }
 }
 
 @media (min-width: 500px) {
@@ -64,6 +67,10 @@
   }
   .box h1 {
     font-size: 2em;
+  }
+
+  .animated {
+    min-width: 60vw;
   }
 }
 
@@ -77,5 +84,8 @@
   }
   .box h1 {
     font-size: 3.5em;
+  }
+  .animated {
+    min-width: 40vw;
   }
 }

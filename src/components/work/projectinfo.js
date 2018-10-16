@@ -37,12 +37,12 @@ export default class ProjectInfo extends React.PureComponent {
           </div>
           <div className="view site">
             <a href="google.com" title="Go to website.com" target="_blank">
-              view live website
+              <Trans i18nKey="info.website" />
             </a>
           </div>
           <div className="view code">
             <a href="google.com" title="view code">
-              view code
+              <Trans i18nKey="info.code" />
             </a>
           </div>
         </div>
@@ -65,8 +65,8 @@ export default class ProjectInfo extends React.PureComponent {
           style={{}}
         >
           <h1>
-            Cryptocurrency <br />
-            Price Tracker
+            <Trans i18nKey="info.crypto1" /> <br />
+            <Trans i18nKey="info.crypto2" />
           </h1>
           <p className="techs">React Native + Redux + Flexbox 2</p>
           <div className="icons">
@@ -76,15 +76,15 @@ export default class ProjectInfo extends React.PureComponent {
           </div>
           <div className="view site">
             <a href="google.com" title="google.com" target="_blank">
-              view live website
+              <Trans i18nKey="info.website" />
             </a>
           </div>
           <div className="view code">
             <a href="google.com" title="view code">
-              view code
+              <Trans i18nKey="info.code" />
             </a>
           </div>
-        </div>{" "}
+        </div>
         <div
           className={`3 box c animated  ${
             this.props.counter === 3
@@ -103,7 +103,9 @@ export default class ProjectInfo extends React.PureComponent {
           }`}
           style={{}}
         >
-          <h1>Local Weather App</h1>
+          <h1>
+            <Trans i18nKey="info.weather" />
+          </h1>
           <p className="techs">ReactJS + Sparklines + Redux 3</p>
           <div className="icons">
             <div className="sprite react" />
@@ -111,12 +113,12 @@ export default class ProjectInfo extends React.PureComponent {
           </div>
           <div className="view site">
             <a href="google.com" title="google.com" target="_blank">
-              view live website
+              <Trans i18nKey="info.website" />
             </a>
           </div>
-          <div className="view project">
-            <a href="google.com" title="view project">
-              view project
+          <div className="view code">
+            <a href="google.com" title="view code">
+              <Trans i18nKey="info.code" />
             </a>
           </div>
         </div>
@@ -138,7 +140,9 @@ export default class ProjectInfo extends React.PureComponent {
           }`}
           style={{}}
         >
-          <h1>Login Component</h1>
+          <h1>
+            <Trans i18nKey="info.login" />
+          </h1>
           <p className="techs">ReactJS + GraphQL + Node 4</p>
           <div className="icons">
             <div className="sprite react" />
@@ -147,12 +151,12 @@ export default class ProjectInfo extends React.PureComponent {
           </div>
           <div className="view site">
             <a href="google.com" title="google.com" target="_blank">
-              view live website
+              <Trans i18nKey="info.website" />
             </a>
           </div>
-          <div className="view project">
-            <a href="google.com" title="view project">
-              view project
+          <div className="view code">
+            <a href="google.com" title="view code">
+              <Trans i18nKey="info.code" />
             </a>
           </div>
         </div>
@@ -174,7 +178,9 @@ export default class ProjectInfo extends React.PureComponent {
           }`}
           style={{}}
         >
-          <h1>Reacted Youtube</h1>
+          <h1>
+            <Trans i18nKey="info.youtube" />
+          </h1>
           <p className="techs">ReactJS + Axios + Redux</p>
           <div className="icons">
             <div className="sprite react" />
@@ -182,12 +188,12 @@ export default class ProjectInfo extends React.PureComponent {
           </div>
           <div className="view site">
             <a href="google.com" title="google.com" target="_blank">
-              view live website
+              <Trans i18nKey="info.website" />
             </a>
           </div>
           <div className="view code">
             <a href="google.com" title="view code">
-              view code
+              <Trans i18nKey="info.code" />
             </a>
           </div>
         </div>
