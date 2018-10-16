@@ -2,8 +2,11 @@
   margin-top: 40px;
 }
 
-.working {
-  background-image: url("../images/WaterStream.jpg");
+.preview-ch {
+  background-image: url("../images/chinese-preview.gif");
+}
+.preview-en {
+  background-image: url("../images/english-preview.gif");
 }
 
 .project-image {
