@@ -9,6 +9,9 @@
     grid-template-columns: repeat(1, [col-start] 1fr);
     overflow: hidden;
     background-color: #dddbf1;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
   }
   .a {
     grid-column: col-start / span 12;
