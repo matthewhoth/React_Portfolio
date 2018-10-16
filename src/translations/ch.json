@@ -37,7 +37,14 @@
     "trip": "Experience"
   },
   "info": {
-    "fullstack": "全棧歌詞"
+    "fullstack": "全棧歌詞",
+    "login": "登錄組件",
+    "weather": "地方天氣",
+    "youtube": "React版 Youtube",
+    "crypto1": "加密數字貨幣",
+    "crypto2": " 跟蹤器",
+    "website": " 看現場網站",
+    "code": "檢查代碼"
   },
   "commits": {
     "title": "最近的Github提交"

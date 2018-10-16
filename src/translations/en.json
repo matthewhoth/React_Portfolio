@@ -37,7 +37,14 @@
     "trip": "Experience"
   },
   "info": {
-    "fullstack": "Full Stack Lyrics"
+    "fullstack": "Full Stack Lyrics",
+    "login": "Login Component",
+    "weather": "Local Weather App",
+    "youtube": "Reacted Youtube",
+    "crypto1": "Cryptocurrency",
+    "crypto2": "Price Tracker",
+    "website": "View Live Website",
+    "code": "View Code"
   },
   "commits": {
     "title": "Recent Github Commits"
