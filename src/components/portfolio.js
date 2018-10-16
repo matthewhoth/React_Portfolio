@@ -1,6 +1,5 @@
 import React from "react";
 import { Trans } from "react-i18next";
-import i18n from "i18next";
 
 var images = [
   "../images/lyricaltint.png",
@@ -20,14 +19,8 @@ export default class Portfolio extends React.PureComponent {
       <header className="app-portfolio-container">
         <div className="app-portfolio">
           <section className="portfolio-resume">
-            <div class="ribbon ribbon-top-left">
-              <span
-                onClick={() =>
-                  i18n.language === "en"
-                    ? i18n.changeLanguage("ch")
-                    : i18n.changeLanguage("en")
-                }
-              >
+            <div className="ribbon ribbon-top-left">
+              <span onClick={this.props.click}>
                 <Trans i18nKey="welcome.language" />
               </span>
             </div>
