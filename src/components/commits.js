@@ -33,10 +33,10 @@ export default class Commits extends React.Component {
             {i18n.language == "en"
               ? moment(gitData.date)
                   .locale("en")
-                  .format("h:mm a // MMM Do YYYY")
+                  .format("MMM Do YYYY")
               : moment(gitData.date)
                   .locale("zh-tw")
-                  .format("h:mm a // LL ")}
+                  .format("LL ")}
           </div>
         </div>
         <div className="bulleted content-subheader timeline-subheader">
