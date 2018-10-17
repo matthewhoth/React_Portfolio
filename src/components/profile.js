@@ -11,7 +11,7 @@ import i18n from "i18next";
 export default class Profile extends React.PureComponent {
   constructor(props) {
     super(props);
-    this.state = { language: "en" };
+    this.state = { language: i18n.language };
   }
 
   toggleLanguage() {
