@@ -12,6 +12,7 @@
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
+    padding: 10px;
   }
   .a {
     grid-column: col-start / span 12;
@@ -72,6 +73,18 @@
   }
   .mongo {
     background-image: url(../images/mongo.png);
+  }
+  .docker {
+    background-image: url(../images/docker.png);
+  }
+  .redis {
+    background-image: url(../images/redis.png);
+  }
+  .postgres {
+    background-image: url(../images/postgres.png);
+  }
+  .typescript {
+    background-image: url(../images/typescript.png);
   }
   .view {
     border: 2px solid #e61c3f;

@@ -37,10 +37,10 @@
     "trip": "Experience"
   },
   "info": {
-    "fullstack": "Full Stack Lyrics",
+    "fullstack": "Full-Stack Lyrics",
     "login": "Login Component",
-    "weather": "Local Weather App",
-    "youtube": "Reacted Youtube",
+    "airbnb": "Full-Stack Airbnb Lite",
+    "slack": "Full-Stack Team Message",
     "crypto1": "Cryptocurrency",
     "crypto2": "Price Tracker",
     "website": "View Live Website",

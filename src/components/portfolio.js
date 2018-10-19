@@ -4,14 +4,14 @@ import { Trans } from "react-i18next";
 var images = [
   "../images/lyricaltint.png",
   "../images/cryptotint.png",
-  "../images/weathertint.png",
+  "../images/airbnbtint.png",
   "../images/logintint.png",
-  "../images/youtubetint.png",
+  "../images/slackapptint.png",
   "../images/lyricaltintd.png",
   "../images/cryptotintd.png",
-  "../images/weathertintd.png",
+  "../images/airbnbtintd.png",
   "../images/logintintd.png",
-  "../images/youtubetintd.png"
+  "../images/slackapptintd.png"
 ];
 export default class Portfolio extends React.PureComponent {
   render() {

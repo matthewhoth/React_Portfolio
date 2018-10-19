@@ -64,7 +64,7 @@ export default class ProjectPicture extends React.PureComponent {
           }`}
           style={{}}
         >
-          <img src={require("../../images/weather.png")} />
+          <img src={require("../../images/airbnb.png")} />
         </div>
 
         <div
@@ -106,7 +106,7 @@ export default class ProjectPicture extends React.PureComponent {
           }`}
           style={{}}
         >
-          <img src={require("../../images/youtube.png")} />
+          <img src={require("../../images/slackapp.png")} />
         </div>
       </section>
     );

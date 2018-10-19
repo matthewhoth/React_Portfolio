@@ -9,6 +9,7 @@
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
+    padding: 10px;
   }
   .image {
     grid-column: col-start 1 / span 12;
@@ -67,7 +68,6 @@ section > div > img {
   width: 100%;
   margin: 0;
   border: 0;
-  padding: 3px;
   max-height: 50vh;
   overflow: hidden;
 }
