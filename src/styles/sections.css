@@ -55,4 +55,5 @@ a:link {
 .content-details {
   display: flex;
   justify-content: flex-end;
+  margin-left: 10px;
 }
