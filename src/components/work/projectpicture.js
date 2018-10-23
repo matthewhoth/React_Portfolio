@@ -22,7 +22,7 @@ export default class ProjectPicture extends React.PureComponent {
           }`}
           style={{}}
         >
-          <img src={require("../../images/lyrical.png")} />
+          <img alt="" src={require("../../images/lyrical.png")} />
         </div>
 
         <div
@@ -43,7 +43,7 @@ export default class ProjectPicture extends React.PureComponent {
           }`}
           style={{}}
         >
-          <img src={require("../../images/crypto.png")} />
+          <img alt="" src={require("../../images/crypto.png")} />
         </div>
 
         <div
@@ -64,7 +64,7 @@ export default class ProjectPicture extends React.PureComponent {
           }`}
           style={{}}
         >
-          <img src={require("../../images/airbnb.png")} />
+          <img alt="" src={require("../../images/airbnb.png")} />
         </div>
 
         <div
@@ -85,7 +85,7 @@ export default class ProjectPicture extends React.PureComponent {
           }`}
           style={{}}
         >
-          <img src={require("../../images/login.png")} />
+          <img alt="" src={require("../../images/login.png")} />
         </div>
 
         <div
@@ -106,7 +106,7 @@ export default class ProjectPicture extends React.PureComponent {
           }`}
           style={{}}
         >
-          <img src={require("../../images/slackapp.png")} />
+          <img alt="" src={require("../../images/slackapp.png")} />
         </div>
       </section>
     );

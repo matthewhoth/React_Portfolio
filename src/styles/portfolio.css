@@ -24,7 +24,7 @@ h1 {
 
 .app-portfolio-container {
   width: 33%;
-  position: absolute;
+  position: fixed;
   height: 100vh;
   left: 0;
 }

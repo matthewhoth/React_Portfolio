@@ -1,7 +1,7 @@
 @media (max-width: 12999px) {
   .app-portfolio-container {
     width: 33%;
-    position: absolute;
+    position: fixed;
     height: 100vh;
     left: 0;
   }
