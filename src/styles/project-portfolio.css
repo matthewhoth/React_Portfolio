@@ -11,7 +11,7 @@
 
 .portfolio-title-top:lang(ch) {
   font-size: 70px;
-  line-height: 1em;
+  line-height: 1.25em;
 }
 
 button span:lang(ch) {
@@ -20,7 +20,8 @@ button span:lang(ch) {
 }
 
 body:lang(ch) {
-  font-family: "FangSong", STFangsong;
+  font-family: "FangSong", "仿宋", STFangSong, "华文仿宋", "KaiTi", "楷体",
+    STKaiti, "华文楷体";
 }
 
 .profile-section h2:lang(ch) {
