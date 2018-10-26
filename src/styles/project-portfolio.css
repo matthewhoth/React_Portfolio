@@ -19,20 +19,36 @@ button span:lang(ch) {
   line-height: 1.4em;
 }
 
+body:lang(ch) {
+  font-family: "FangSong", STFangsong;
+}
+
 .profile-section h2:lang(ch) {
-  font-size: 15px;
+  font-size: 16px;
+}
+
+h1:lang(ch) {
+  font-family: "FangSong", STFangsong;
 }
 
 .content-header:lang(ch) {
-  font-size: 17px;
+  font-size: 18px;
 }
 
 .profile-section p:lang(ch) {
-  font-size: 1.1em;
+  font-size: 1.25em;
+}
+
+.project p:lang(ch) {
+  font-size: 16px;
+}
+
+p a:lang(ch) {
+  font-size: 0.9em;
 }
 
 li a:lang(ch) {
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .view a:lang(ch) {
