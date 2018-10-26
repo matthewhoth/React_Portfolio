@@ -9,6 +9,36 @@
   margin: 0;
 }
 
+.portfolio-title-top:lang(ch) {
+  font-size: 70px;
+  line-height: 1em;
+}
+
+button span:lang(ch) {
+  font-size: 20px;
+  line-height: 1.4em;
+}
+
+.profile-section h2:lang(ch) {
+  font-size: 15px;
+}
+
+.content-header:lang(ch) {
+  font-size: 17px;
+}
+
+.profile-section p:lang(ch) {
+  font-size: 1.1em;
+}
+
+li a:lang(ch) {
+  font-size: 13px;
+}
+
+.view a:lang(ch) {
+  font-size: 14px;
+}
+
 .goodbye {
   display: none !important;
 }
