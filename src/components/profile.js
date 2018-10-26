@@ -15,7 +15,7 @@ export default class Profile extends React.PureComponent {
   }
 
   toggleLanguage() {
-    if (this.state.language == "en") {
+    if (this.state.language === "en") {
       i18n.changeLanguage("ch");
       this.setState({
         language: "ch"
@@ -36,17 +36,17 @@ export default class Profile extends React.PureComponent {
           data-simplebar-auto-hide="false"
           className="app-container"
         >
-          <a href="#top" className="sticky-default">
-            <div className="sticky-button">
-              <i className="" />
+          <a href="#top" class="sticky-default">
+            <div class="sticky-button">
+              <i class="fas fa-angle-up" />
             </div>
           </a>
-          <a href="#top-mobile" className="sticky-mobile">
-            <div className="sticky-button">
-              <i className="" />
+          <a href="#top-mobile" class="sticky-mobile">
+            <div class="sticky-button">
+              <i class="fas fa-angle-up" />
             </div>
           </a>
-          <a name="top-mobile" />
+          <a href="#top-mobile" name="top-mobile" content="sticky button" />
           <Portfolio click={this.toggleLanguage.bind(this)} />
           <a name="top" />
           <article className="app-profile">
