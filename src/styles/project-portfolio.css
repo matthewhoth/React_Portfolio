@@ -9,6 +9,52 @@
   margin: 0;
 }
 
+.portfolio-title-top:lang(ch) {
+  font-size: 70px;
+  line-height: 1em;
+}
+
+button span:lang(ch) {
+  font-size: 20px;
+  line-height: 1.4em;
+}
+
+body:lang(ch) {
+  font-family: "FangSong", STFangsong;
+}
+
+.profile-section h2:lang(ch) {
+  font-size: 16px;
+}
+
+h1:lang(ch) {
+  font-family: "FangSong", STFangsong;
+}
+
+.content-header:lang(ch) {
+  font-size: 18px;
+}
+
+.profile-section p:lang(ch) {
+  font-size: 1.25em;
+}
+
+.project p:lang(ch) {
+  font-size: 16px;
+}
+
+p a:lang(ch) {
+  font-size: 0.9em;
+}
+
+li a:lang(ch) {
+  font-size: 14px;
+}
+
+.view a:lang(ch) {
+  font-size: 14px;
+}
+
 .goodbye {
   display: none !important;
 }

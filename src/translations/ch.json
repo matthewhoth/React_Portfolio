@@ -21,7 +21,19 @@
     "vc": "版本控制"
   },
   "exp": {
-    "title": "工作經歷"
+    "title": "工作經歷",
+    "worktitle1": "Work Title 1",
+    "worktitle2": "Work Title 2",
+    "worktitle3": "Work Title 3",
+    "worktitle4": "Work Title 4",
+    "workdetail1": "Freelance",
+    "workdetail2": "Freelance",
+    "workdetail3": "Freelance",
+    "workdetail4": "Freelance",
+    "timeframe1": "nice",
+    "timeframe2": "nice",
+    "timeframe3": "nice",
+    "timeframe4": "nice"
   },
   "pa": {
     "title": "個人成就",

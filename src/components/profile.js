@@ -26,6 +26,9 @@ export default class Profile extends React.PureComponent {
         language: "en"
       });
     }
+    document
+      .getElementsByTagName("html")[0]
+      .setAttribute("lang", i18n.language);
   }
 
   render() {

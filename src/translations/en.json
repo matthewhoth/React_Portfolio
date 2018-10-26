@@ -21,7 +21,19 @@
     "vc": "Version Control"
   },
   "exp": {
-    "title": "Experience"
+    "title": "Experience",
+    "worktitle1": "Work Title 1",
+    "worktitle2": "Work Title 2",
+    "worktitle3": "Work Title 3",
+    "worktitle4": "Work Title 4",
+    "workdetail1": "Freelance",
+    "workdetail2": "Freelance",
+    "workdetail3": "Freelance",
+    "workdetail4": "Freelance",
+    "timeframe1": "Jun. 2018 – Present",
+    "timeframe2": "May 2017 – Present",
+    "timeframe3": "Mar. 2017 – Nov. 2017",
+    "timeframe4": "Jan. 2017 – Mar. 2017"
   },
   "pa": {
     "title": "Personal Accomplishments",

@@ -11,8 +11,12 @@ export default class Experience extends React.PureComponent {
         <ul className="vertical-line">
           <li className="vertical-line-content">
             <div className="bulleted content-header timeline-header">
-              <div className="content-title">Work Title 1</div>
-              <div className="content-details">Jun. 2018 – Present</div>
+              <div className="content-title">
+                <Trans i18nKey="exp.worktitle1" />
+              </div>
+              <div className="content-details">
+                <Trans i18nKey="exp.timeframe1" />
+              </div>
             </div>
             <div className="bulleted content-subheader timeline-subheader">
               <div className="subheader-title">
@@ -25,8 +29,12 @@ export default class Experience extends React.PureComponent {
           </li>
           <li className="vertical-line-content">
             <div className="bulleted content-header timeline-header">
-              <div className="content-title">Work Title 2</div>
-              <div className="content-details">May 2017 – Present</div>
+              <div className="content-title">
+                <Trans i18nKey="exp.worktitle2" />
+              </div>
+              <div className="content-details">
+                <Trans i18nKey="exp.timeframe2" />
+              </div>
             </div>
             <div className="bulleted content-subheader timeline-subheader">
               <div className="subheader-title">
@@ -39,8 +47,12 @@ export default class Experience extends React.PureComponent {
           </li>
           <li className="vertical-line-content">
             <div className="bulleted content-header timeline-header">
-              <div className="content-title">Work Title 3</div>
-              <div className="content-details">Mar. 2017 – Nov. 2017</div>
+              <div className="content-title">
+                <Trans i18nKey="exp.worktitle3" />
+              </div>
+              <div className="content-details">
+                <Trans i18nKey="exp.timeframe3" />
+              </div>
             </div>
             <div className="bulleted content-subheader timeline-subheader">
               <div className="subheader-title">
@@ -53,8 +65,12 @@ export default class Experience extends React.PureComponent {
           </li>
           <li className="vertical-line-content">
             <div className="bulleted content-header timeline-header">
-              <div className="content-title">Work Title 4</div>
-              <div className="content-details">Jan. 2017 – Mar. 2017</div>
+              <div className="content-title">
+                <Trans i18nKey="exp.worktitle4" />
+              </div>
+              <div className="content-details">
+                <Trans i18nKey="exp.timeframe4" />
+              </div>
             </div>
             <div className="bulleted content-subheader timeline-subheader">
               <div className="subheader-title">
