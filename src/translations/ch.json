@@ -3,7 +3,7 @@
     "title-upper": "全棧",
     "title-lower": "工程師",
     "resume": "簡歷",
-    "location": "花蓮，臺灣",
+    "location": "臺灣,花蓮",
     "language": "English",
     "github": "何一諾"
   },
@@ -38,7 +38,7 @@
   "pa": {
     "title": "個人成就",
     "trip": "Experience",
-    "achievement1": "單人5000公里脚車旅行",
+    "achievement1": "單人5000公里腳踏車旅行",
     "achievement2": "取得了流利中文",
     "achievement3": "硬擧我的體重三倍",
     "achievement4": "透過了內觀十天的住宿課程"
@@ -61,8 +61,8 @@
     "slack": "React版 slack",
     "crypto1": "加密數字貨幣",
     "crypto2": " 跟蹤器",
-    "website": " 看現場網站",
-    "code": "檢查代碼"
+    "website": "瀏覽網站",
+    "code": "查看程式碼"
   },
   "description": {
     "fullstack": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Doneciaculis justo non diam volutpat, vel tincidunt velit aliquet. Sedvulputate mauris non velit facilisis, nec aliquam est mattis.",
