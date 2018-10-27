@@ -7,9 +7,27 @@ export default class Project extends React.PureComponent {
     console.log(this.props.language);
     return (
       <section className="profile-section">
-        <h2>
-          <Trans i18nKey="pro.title" />
-        </h2>
+        <div className="project-description">
+          <h2>
+            <Trans i18nKey="pro.title" />
+          </h2>
+          <ul className="project-details">
+            <li>
+              <span className="project-details-label">
+                <a className="profile-a" href="google.com" target="_blank">
+                  Live
+                </a>
+              </span>
+            </li>
+            <li>
+              <span className="project-details-label">
+                <a className="profile-a" href="google.com" target="_blank">
+                  Source
+                </a>
+              </span>
+            </li>
+          </ul>
+        </div>
         <Link to={`/projects`}>
           <ul>
             <li className="project">
@@ -56,35 +74,7 @@ export default class Project extends React.PureComponent {
                   </li>
                 </ul>
               </div>
-              <div className="project-description">
-                <div className="project-name">
-                  <Trans i18nKey="pro.lorem" />
-                </div>
-                <ul className="project-details">
-                  <li>
-                    <span className="project-details-label">
-                      <a
-                        className="profile-a"
-                        href="google.com"
-                        target="_blank"
-                      >
-                        Live
-                      </a>
-                    </span>
-                  </li>
-                  <li>
-                    <span className="project-details-label">
-                      <a
-                        className="profile-a"
-                        href="google.com"
-                        target="_blank"
-                      >
-                        Source
-                      </a>
-                    </span>
-                  </li>
-                </ul>
-              </div>
+
               <p>
                 <Trans i18nKey="pro.lorem-text" />
               </p>
