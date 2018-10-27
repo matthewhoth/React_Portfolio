@@ -15,14 +15,14 @@ export default class Project extends React.PureComponent {
             <li>
               <span className="project-details-label">
                 <a className="profile-a" href="google.com" target="_blank">
-                  Live
+                  <Trans i18nKey="pro.live" />
                 </a>
               </span>
             </li>
             <li>
               <span className="project-details-label">
                 <a className="profile-a" href="google.com" target="_blank">
-                  Source
+                  <Trans i18nKey="pro.source" />
                 </a>
               </span>
             </li>

@@ -46,7 +46,9 @@
   "pro": {
     "title": "個人項目",
     "lorem": "亂數假文",
-    "lorem-text": "這一頁包含我最近五個項目的畫廊.我運用了廣氾的技術創造它們因爲 I don't know what to put here. I'm just trying to say I used a bunch of different technologies to explore their diffferences and made apps that covered a wide range of uses but want it to sound warm yet professional"
+    "lorem-text": "這一頁包含我最近五個項目的畫廊.我運用了廣氾的技術創造它們因爲 I don't know what to put here. I'm just trying to say I used a bunch of different technologies to explore their diffferences and made apps that covered a wide range of uses but want it to sound warm yet professional",
+    "live": "",
+    "source": ""
   },
   "projectinfo": {
     "recent": "我最近創造",
