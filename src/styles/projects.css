@@ -72,7 +72,6 @@
   justify-content: flex-end;
   font-size: small;
   letter-spacing: medium;
-  padding: 20px 0;
 }
 
 .project-name {
@@ -83,6 +82,12 @@
 .project-details {
   display: flex;
   justify-content: flex-end;
+  margin: 0;
+}
+
+.project p {
+  text-align: center;
+  margin-top: 1.5em;
 }
 
 .project-details li i {

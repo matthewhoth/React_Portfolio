@@ -67,9 +67,6 @@
   .project-details {
     justify-content: flex-end;
   }
-  .project-details li {
-    margin-top: 0;
-  }
 
   .sticky-default {
     display: none;
@@ -152,7 +149,6 @@
 
   .project-details {
     justify-content: left;
-    margin-top: 10px;
   }
 }
 

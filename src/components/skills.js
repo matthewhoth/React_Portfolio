@@ -10,24 +10,30 @@ export default class Skills extends React.PureComponent {
         <ul className="vertical-line-PA">
           <li className="vertical-line-content">
             <div className="bulleted content-header">
-              <div className="content-title">Solo 5000km Bicycle Trip</div>
-            </div>
-          </li>
-          <li className="vertical-line-content">
-            <div className="bulleted content-header">
               <div className="content-title">
-                Attained Fluency In Mandarin Chinese
+                <Trans i18nKey="pa.achievement1" />
               </div>
             </div>
           </li>
           <li className="vertical-line-content">
             <div className="bulleted content-header">
-              <div className="content-title">Deadlifted 3x my bodyweight</div>
+              <div className="content-title">
+                <Trans i18nKey="pa.achievement2" />
+              </div>
             </div>
           </li>
           <li className="vertical-line-content">
             <div className="bulleted content-header">
-              <div className="content-title">Completed a Vipassanā trip</div>
+              <div className="content-title">
+                <Trans i18nKey="pa.achievement3" />
+              </div>
+            </div>
+          </li>
+          <li className="vertical-line-content">
+            <div className="bulleted content-header">
+              <div className="content-title">
+                <Trans i18nKey="pa.achievement4" />
+              </div>
             </div>
           </li>
         </ul>
