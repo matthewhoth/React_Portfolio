@@ -224,6 +224,10 @@
   .app-profile {
     padding: 60px 40px 40px 40px;
   }
+
+  .bulleted {
+    margin-left: -10px;
+  }
 }
 
 @media (max-height: 299px) {
