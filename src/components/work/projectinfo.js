@@ -2,20 +2,34 @@ import React from "react";
 import { Trans } from "react-i18next";
 export default class ProjectInfo extends React.PureComponent {
   render() {
-    return <nav className="leftside-top">
+    return (
+      <nav className="leftside-top">
         <div className="box a">
           <Trans i18nKey="projectinfo.recent" />
         </div>
-        <div className={`1 box c animated  ${this.props.counter === 1 ? (this.props.rightActive === true ? "fadeInDown" : "fadeInUp") : this.props.counter === 2 ? (this.props.rightActive === true ? "goodbye" : "fadeOutUp") : this.props.counter === 5 ? (this.props.rightActive === true ? "fadeOutDown" : "goodbye") : "goodbye"}`} style={{}}>
+        <div
+          className={`1 box c animated  ${
+            this.props.counter === 1
+              ? this.props.rightActive === true
+                ? "fadeInDown"
+                : "fadeInUp"
+              : this.props.counter === 2
+                ? this.props.rightActive === true
+                  ? "goodbye"
+                  : "fadeOutUp"
+                : this.props.counter === 5
+                  ? this.props.rightActive === true
+                    ? "fadeOutDown"
+                    : "goodbye"
+                  : "goodbye"
+          }`}
+          style={{}}
+        >
           <h1>
             <Trans i18nKey="info.fullstack" />
           </h1>
           <p className="techs">
-            {" "}
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            iaculis justo non diam volutpat, vel tincidunt velit aliquet.
-            Sed vulputate mauris non velit facilisis, nec aliquam est
-            mattis.
+            <Trans i18nKey="description.fullstack" />
           </p>
           <div className="icons">
             <div className="sprite react" />
@@ -34,17 +48,30 @@ export default class ProjectInfo extends React.PureComponent {
             </a>
           </div>
         </div>
-        <div className={`1 box c animated ${this.props.counter === 2 ? (this.props.rightActive === true ? "fadeInDown" : "fadeInUp") : this.props.counter === 3 ? (this.props.rightActive === true ? "goodbye" : "fadeOutUp") : this.props.counter === 1 ? (this.props.rightActive === true ? "fadeOutDown" : "goodbye") : "goodbye"}`} style={{}}>
+        <div
+          className={`1 box c animated ${
+            this.props.counter === 2
+              ? this.props.rightActive === true
+                ? "fadeInDown"
+                : "fadeInUp"
+              : this.props.counter === 3
+                ? this.props.rightActive === true
+                  ? "goodbye"
+                  : "fadeOutUp"
+                : this.props.counter === 1
+                  ? this.props.rightActive === true
+                    ? "fadeOutDown"
+                    : "goodbye"
+                  : "goodbye"
+          }`}
+          style={{}}
+        >
           <h1>
             <Trans i18nKey="info.crypto1" /> <br />
             <Trans i18nKey="info.crypto2" />
           </h1>
           <p className="techs">
-            {" "}
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            iaculis justo non diam volutpat, vel tincidunt velit aliquet.
-            Sed vulputate mauris non velit facilisis, nec aliquam est
-            mattis.
+            <Trans i18nKey="description.crypto" />
           </p>
           <div className="icons">
             <div className="sprite flexbox" />
@@ -62,15 +89,29 @@ export default class ProjectInfo extends React.PureComponent {
             </a>
           </div>
         </div>
-        <div className={`3 box c animated  ${this.props.counter === 3 ? (this.props.rightActive === true ? "fadeInDown" : "fadeInUp") : this.props.counter === 4 ? (this.props.rightActive === true ? "goodbye" : "fadeOutUp") : this.props.counter === 2 ? (this.props.rightActive === true ? "fadeOutDown" : "goodbye") : "goodbye"}`} style={{}}>
+        <div
+          className={`3 box c animated  ${
+            this.props.counter === 3
+              ? this.props.rightActive === true
+                ? "fadeInDown"
+                : "fadeInUp"
+              : this.props.counter === 4
+                ? this.props.rightActive === true
+                  ? "goodbye"
+                  : "fadeOutUp"
+                : this.props.counter === 2
+                  ? this.props.rightActive === true
+                    ? "fadeOutDown"
+                    : "goodbye"
+                  : "goodbye"
+          }`}
+          style={{}}
+        >
           <h1>
             <Trans i18nKey="info.airbnb" />
           </h1>
           <p className="techs">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            iaculis justo non diam volutpat, vel tincidunt velit aliquet.
-            Sed vulputate mauris non velit facilisis, nec aliquam est
-            mattis.
+            <Trans i18nKey="description.airbnb" />
           </p>
           <div className="icons">
             <div className="sprite react" />
@@ -90,16 +131,29 @@ export default class ProjectInfo extends React.PureComponent {
             </a>
           </div>
         </div>
-        <div className={`4 box c animated  ${this.props.counter === 4 ? (this.props.rightActive === true ? "fadeInDown" : "fadeInUp") : this.props.counter === 5 ? (this.props.rightActive === true ? "goodbye" : "fadeOutUp") : this.props.counter === 3 ? (this.props.rightActive === true ? "fadeOutDown" : "goodbye") : "goodbye"}`} style={{}}>
+        <div
+          className={`4 box c animated  ${
+            this.props.counter === 4
+              ? this.props.rightActive === true
+                ? "fadeInDown"
+                : "fadeInUp"
+              : this.props.counter === 5
+                ? this.props.rightActive === true
+                  ? "goodbye"
+                  : "fadeOutUp"
+                : this.props.counter === 3
+                  ? this.props.rightActive === true
+                    ? "fadeOutDown"
+                    : "goodbye"
+                  : "goodbye"
+          }`}
+          style={{}}
+        >
           <h1>
             <Trans i18nKey="info.login" />
           </h1>
           <p className="techs">
-            {" "}
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            iaculis justo non diam volutpat, vel tincidunt velit aliquet.
-            Sed vulputate mauris non velit facilisis, nec aliquam est
-            mattis.
+            <Trans i18nKey="description.login" />
           </p>
           <div className="icons">
             <div className="sprite react" />
@@ -117,11 +171,30 @@ export default class ProjectInfo extends React.PureComponent {
             </a>
           </div>
         </div>
-        <div className={`1 box c animated  ${this.props.counter === 5 ? (this.props.rightActive === true ? "fadeInDown" : "fadeInUp") : this.props.counter === 1 ? (this.props.rightActive === true ? "goodbye" : "fadeOutUp") : this.props.counter === 4 ? (this.props.rightActive === true ? "fadeOutDown" : "goodbye") : "goodbye"}`} style={{}}>
+        <div
+          className={`1 box c animated  ${
+            this.props.counter === 5
+              ? this.props.rightActive === true
+                ? "fadeInDown"
+                : "fadeInUp"
+              : this.props.counter === 1
+                ? this.props.rightActive === true
+                  ? "goodbye"
+                  : "fadeOutUp"
+                : this.props.counter === 4
+                  ? this.props.rightActive === true
+                    ? "fadeOutDown"
+                    : "goodbye"
+                  : "goodbye"
+          }`}
+          style={{}}
+        >
           <h1>
             <Trans i18nKey="info.slack" />
           </h1>
-          <p className="techs">React + Axios + Redux</p>
+          <p className="techs">
+            <Trans i18nKey="description.slack" />
+          </p>
           <div className="icons">
             <div className="sprite react" />
             <div className="sprite redis" />
@@ -140,6 +213,7 @@ export default class ProjectInfo extends React.PureComponent {
             </a>
           </div>
         </div>
-      </nav>;
+      </nav>
+    );
   }
 }
