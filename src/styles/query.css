@@ -154,7 +154,7 @@
 
 @media (max-width: 449px) {
   .app-profile {
-    padding: 60px 20px 20px;
+    padding: 50px 40px 40px 30px;
   }
   .bulleted {
     margin-left: -10px;
