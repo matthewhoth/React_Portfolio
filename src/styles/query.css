@@ -150,6 +150,11 @@
   .project-details {
     justify-content: left;
   }
+
+  .sticky-button {
+    width: 40px;
+    height: 40px;
+  }
 }
 
 @media (max-width: 449px) {

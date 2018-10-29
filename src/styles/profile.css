@@ -18,26 +18,31 @@
   -ms-justify-content: center;
   -webkit-align-items: center;
   -webkit-justify-content: center;
-  background-color: rgba(34, 148, 159, 1);
+  background-color: #c5c5c5;
   bottom: 10px;
-  color: white;
+  color: #fff;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  height: 30px;
   justify-content: center;
   align-items: center;
   position: fixed;
   right: 20px;
-  width: 30px;
+  width: 50px;
+  height: 50px;
   z-index: 999;
   font-size: 20px;
+  transition: all 0.3s;
 }
 
 .sticky-button i:hover {
   cursor: pointer;
+}
+
+.sticky-button:hover {
+  background-color: #16a6b6;
 }
 
 .sticky-button i {
