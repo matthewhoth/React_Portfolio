@@ -21,10 +21,12 @@ export default class Experience extends React.PureComponent {
             <div className="bulleted content-subheader timeline-subheader">
               <div className="subheader-title">
                 <a className="profile-a" href="google.com" target="_blank">
-                  Work Place 1
+                  <Trans i18nKey="exp.workplace1" />
                 </a>
               </div>
-              <div className="subheader-details">Freelance</div>
+              <div className="subheader-details">
+                <Trans i18nKey="exp.workdetail1" />
+              </div>
             </div>
           </li>
           <li className="vertical-line-content">
@@ -39,10 +41,12 @@ export default class Experience extends React.PureComponent {
             <div className="bulleted content-subheader timeline-subheader">
               <div className="subheader-title">
                 <a className="profile-a" href="google.com" target="_blank">
-                  Work Place 2
+                  <Trans i18nKey="exp.workplace2" />
                 </a>
               </div>
-              <div className="subheader-details">Freelance</div>
+              <div className="subheader-details">
+                <Trans i18nKey="exp.workdetail2" />
+              </div>
             </div>
           </li>
           <li className="vertical-line-content">
@@ -57,10 +61,12 @@ export default class Experience extends React.PureComponent {
             <div className="bulleted content-subheader timeline-subheader">
               <div className="subheader-title">
                 <a className="profile-a" href="google.com" target="_blank">
-                  Work Place 3
+                  <Trans i18nKey="exp.workplace3" />
                 </a>
               </div>
-              <div className="subheader-details">Freelance</div>
+              <div className="subheader-details">
+                <Trans i18nKey="exp.workdetail3" />
+              </div>
             </div>
           </li>
           <li className="vertical-line-content">
@@ -75,10 +81,12 @@ export default class Experience extends React.PureComponent {
             <div className="bulleted content-subheader timeline-subheader">
               <div className="subheader-title">
                 <a className="profile-a" href="google.com" target="_blank">
-                  Work Place 4
+                  <Trans i18nKey="exp.workplace4" />
                 </a>
               </div>
-              <div className="subheader-details">Freelance</div>
+              <div className="subheader-details">
+                <Trans i18nKey="exp.workdetail4" />
+              </div>
             </div>
           </li>
         </ul>
