@@ -5,12 +5,13 @@
     "resume": "簡歷",
     "location": "臺灣,花蓮",
     "language": "English",
-    "github": "何一諾"
+    "github": "何一諾",
+    "phone": "0 905-226-140"
   },
   "intro": {
     "title": "何一諾",
-    "blurb": "嗨~ 我叫何一諾， 我是住在花蓮的全端工程師。 雖然我已經有工作，你需要開源幫助的話請隨時",
-    "link": "發訊息給我",
+    "blurb": "嗨~ 我叫何一諾， 我是住在花蓮的全端工程師。 雖然我已經有工作，不過你需要開源幫助的話請隨時",
+    "link": "傳訊息給我",
     "blurb2": "。"
   },
   "toolbox": {
@@ -45,7 +46,7 @@
     "achievement1": "單人5000公里腳踏車旅行",
     "achievement2": "取得了流利中文",
     "achievement3": "硬擧我的體重三倍",
-    "achievement4": "透過了內觀十天的住宿課程"
+    "achievement4": "通過了內觀十天的住宿課程"
   },
   "pro": {
     "title": "研究作品",
@@ -55,7 +56,7 @@
     "source": ""
   },
   "projectinfo": {
-    "recent": "我最近創造",
+    "recent": "我近期的作品",
     "trip": "Experience"
   },
   "info": {
