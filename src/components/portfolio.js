@@ -59,7 +59,7 @@ export default class Portfolio extends React.PureComponent {
                 </a>
               </li>
               <li>
-                <a href="google.com" target="_blank">
+                <a href="https://github.com/Matthew-Yinuo" target="_blank">
                   <i className="fab fa-github" />
                   <span className="i-label">
                     <Trans i18nKey="welcome.github" />
@@ -69,13 +69,15 @@ export default class Portfolio extends React.PureComponent {
               <li>
                 <a href="google.com">
                   <i className="fas fa-phone" />
-                  <span className="i-label">Phone Number</span>
+                  <span className="i-label">
+                    <Trans i18nKey="welcome.phone" />
+                  </span>
                 </a>
               </li>
               <li>
                 <a href="google.com">
                   <i className="fas fa-envelope" />
-                  <span className="i-label">name@myname.com</span>
+                  <span className="i-label">matthewhoth@gmail.com</span>
                 </a>
               </li>
             </ul>
