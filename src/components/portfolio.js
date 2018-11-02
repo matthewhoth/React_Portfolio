@@ -1,18 +1,6 @@
 import React from "react";
 import { Trans } from "react-i18next";
 
-var images = [
-  "../images/lyricaltint.png",
-  "../images/cryptotint.png",
-  "../images/airbnbtint.png",
-  "../images/logintint.png",
-  "../images/slackapptint.png",
-  "../images/lyricaltintd.png",
-  "../images/cryptotintd.png",
-  "../images/airbnbtintd.png",
-  "../images/logintintd.png",
-  "../images/slackapptintd.png"
-];
 export default class Portfolio extends React.PureComponent {
   render() {
     return (
@@ -45,7 +33,11 @@ export default class Portfolio extends React.PureComponent {
           <nav className="portfolio-contact">
             <ul className="portfolio-contact-list">
               <li>
-                <a href="https://goo.gl/maps/6uY34GshTM22" target="_blank">
+                <a
+                  href="https://goo.gl/maps/6uY34GshTM22"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <i className="fas fa-map-marker-alt" />
                   <span className="i-label">
                     <Trans i18nKey="welcome.location" />
@@ -53,7 +45,7 @@ export default class Portfolio extends React.PureComponent {
                 </a>
               </li>
               <li>
-                <a href="google.com" target="_blank">
+                <a href="google.com" target="_blank" rel="noopener noreferrer">
                   <i className="fab fa-linkedin-in" />
                   <span className="i-label">/in/ahyeah</span>
                 </a>

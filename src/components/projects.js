@@ -33,12 +33,12 @@ export default class Project extends React.PureComponent {
             <li className="project">
               <div className="project-image working">
                 <video
-                  loop="true"
-                  autoPlay="true"
-                  preLoad="none"
+                  loop={true}
+                  autoPlay={true}
+                  preload="none"
                   className="background_video"
                   mute="true"
-                  playsInline="true"
+                  playsInline={true}
                   src={require(`../images/${this.props.language}.mp4`)}
                   type="video/mp4"
                 />

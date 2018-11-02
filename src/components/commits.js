@@ -25,12 +25,13 @@ export default class Commits extends React.Component {
               href={`https://github.com/${gitData.repo.name}`}
               className="profile-a commit-repo"
               target="_blank"
+              rel="noopener noreferrer"
             >
               {gitData.repo.name}
             </a>
           </div>
           <div className="content-details">
-            {i18n.language == "en"
+            {i18n.language === "en"
               ? moment(gitData.date)
                   .locale("en")
                   .format("MMM Do YYYY")
@@ -51,7 +52,7 @@ export default class Commits extends React.Component {
   async componentDidMount() {
     await axios
       .get(
-        `https://api.github.com/users/matthew-yinuo/events/public?per_page=100`
+        `https://api.github.com/users/matthew-yinuo/events/public?per_page=50`
       )
       .catch(error => console.log("API request error:", error))
       .then(res => {
@@ -70,7 +71,6 @@ export default class Commits extends React.Component {
             });
           });
         });
-        console.log(commitEvents);
         console.log(i18n.language);
         this.setState({
           gitData: commitEvents.slice(0, 5)
