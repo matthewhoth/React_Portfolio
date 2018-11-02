@@ -5,6 +5,9 @@
     height: 100vh;
     left: 0;
   }
+  .project-image {
+    height: 250px;
+  }
 }
 @media (max-width: 1299px) {
   .timeline-header,
@@ -139,6 +142,10 @@
   .i-label {
     display: none;
   }
+
+  .project-image {
+    height: 175px;
+  }
 }
 
 @media (max-width: 499px) {
@@ -155,6 +162,9 @@
     width: 40px;
     height: 40px;
   }
+  .project-image {
+    height: 150px;
+  }
 }
 
 @media (max-width: 449px) {
@@ -163,6 +173,10 @@
   }
   .bulleted {
     margin-left: -10px;
+  }
+
+  .project-image {
+    height: 125px;
   }
 }
 
