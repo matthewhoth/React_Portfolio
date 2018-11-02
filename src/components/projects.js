@@ -4,7 +4,7 @@ import { Trans } from "react-i18next";
 
 export default class Project extends React.PureComponent {
   render() {
-    console.log(this.props.language);
+    console.log("language:", this.props.language);
     return (
       <section className="profile-section">
         <div className="project-description">
@@ -31,10 +31,17 @@ export default class Project extends React.PureComponent {
         <Link to={`/projects`}>
           <ul>
             <li className="project">
-              <div
-                className="project-image working"
-                className={`project-image preview-${this.props.language}`}
-              >
+              <div className="project-image working">
+                <video
+                  loop="true"
+                  autoPlay="true"
+                  preLoad="none"
+                  className="background_video"
+                  mute="true"
+                  playsInline="true"
+                  src={require(`../images/${this.props.language}.mp4`)}
+                  type="video/mp4"
+                />
                 <ul className="project-tech">
                   <li>
                     <i className="devicon-html5-plain" title="HTML5" />
