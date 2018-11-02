@@ -2,18 +2,19 @@
   margin-top: 40px;
 }
 
-.preview-ch {
-  background-image: url("../images/chinese-preview.gif");
-}
-.preview-en {
-  background-image: url("../images/english-preview.gif");
+.background_video {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  position: absolute;
+  object-fit: cover;
+  z-index: -1;
 }
 
 .project-image {
   background-size: cover;
   background-position: center;
   position: relative;
-  height: 200px;
   width: 100%;
 }
 .project-image::before {
