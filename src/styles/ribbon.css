@@ -3,6 +3,9 @@
   height: 150px;
   overflow: hidden;
   position: absolute;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
 .ribbon::before,
 .ribbon::after {

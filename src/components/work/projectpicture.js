@@ -1,4 +1,9 @@
-import React from "react";
+import React from 'react'
+import lyrical from '../../images/lyrical.png'
+import crypto from '../../images/crypto.png'
+import airbnb from '../../images/airbnb.png'
+import login from '../../images/login.png'
+import slackapp from '../../images/slackapp.png'
 
 export default class ProjectPicture extends React.PureComponent {
   render() {
@@ -8,107 +13,107 @@ export default class ProjectPicture extends React.PureComponent {
           className={`box image animated  ${
             this.props.counter === 1
               ? this.props.rightActive === true
-                ? "fadeInUp"
-                : "fadeInDown"
+                ? 'fadeInUp'
+                : 'fadeInDown'
               : this.props.counter === 2
-                ? this.props.rightActive === true
-                  ? "goodbye"
-                  : "fadeOutDown"
-                : this.props.counter === 5
-                  ? this.props.rightActive === true
-                    ? "fadeOutUp"
-                    : "goodbye"
-                  : "goodbye"
+              ? this.props.rightActive === true
+                ? 'goodbye'
+                : 'fadeOutDown'
+              : this.props.counter === 5
+              ? this.props.rightActive === true
+                ? 'fadeOutUp'
+                : 'goodbye'
+              : 'goodbye'
           }`}
           style={{}}
         >
-          <img alt="" src={require("../../images/lyrical.png")} />
+          <img alt="" src={lyrical} />
         </div>
 
         <div
           className={`box image animated  ${
             this.props.counter === 2
               ? this.props.rightActive === true
-                ? "fadeInUp"
-                : "fadeInDown"
+                ? 'fadeInUp'
+                : 'fadeInDown'
               : this.props.counter === 3
-                ? this.props.rightActive === true
-                  ? "goodbye"
-                  : "fadeOutDown"
-                : this.props.counter === 1
-                  ? this.props.rightActive === true
-                    ? "fadeOutUp"
-                    : "goodbye"
-                  : "goodbye"
+              ? this.props.rightActive === true
+                ? 'goodbye'
+                : 'fadeOutDown'
+              : this.props.counter === 1
+              ? this.props.rightActive === true
+                ? 'fadeOutUp'
+                : 'goodbye'
+              : 'goodbye'
           }`}
           style={{}}
         >
-          <img alt="" src={require("../../images/crypto.png")} />
+          <img alt="" src={crypto} />
         </div>
 
         <div
           className={`box image animated  ${
             this.props.counter === 3
               ? this.props.rightActive === true
-                ? "fadeInUp"
-                : "fadeInDown"
+                ? 'fadeInUp'
+                : 'fadeInDown'
               : this.props.counter === 4
-                ? this.props.rightActive === true
-                  ? "goodbye"
-                  : "fadeOutDown"
-                : this.props.counter === 2
-                  ? this.props.rightActive === true
-                    ? "fadeOutUp"
-                    : "goodbye"
-                  : "goodbye"
+              ? this.props.rightActive === true
+                ? 'goodbye'
+                : 'fadeOutDown'
+              : this.props.counter === 2
+              ? this.props.rightActive === true
+                ? 'fadeOutUp'
+                : 'goodbye'
+              : 'goodbye'
           }`}
           style={{}}
         >
-          <img alt="" src={require("../../images/airbnb.png")} />
+          <img alt="" src={airbnb} />
         </div>
 
         <div
           className={`box image animated  ${
             this.props.counter === 4
               ? this.props.rightActive === true
-                ? "fadeInUp"
-                : "fadeInDown"
+                ? 'fadeInUp'
+                : 'fadeInDown'
               : this.props.counter === 5
-                ? this.props.rightActive === true
-                  ? "goodbye"
-                  : "fadeOutDown"
-                : this.props.counter === 3
-                  ? this.props.rightActive === true
-                    ? "fadeOutUp"
-                    : "goodbye"
-                  : "goodbye"
+              ? this.props.rightActive === true
+                ? 'goodbye'
+                : 'fadeOutDown'
+              : this.props.counter === 3
+              ? this.props.rightActive === true
+                ? 'fadeOutUp'
+                : 'goodbye'
+              : 'goodbye'
           }`}
           style={{}}
         >
-          <img alt="" src={require("../../images/login.png")} />
+          <img alt="" src={login} />
         </div>
 
         <div
           className={`box image animated  ${
             this.props.counter === 5
               ? this.props.rightActive === true
-                ? "fadeInUp"
-                : "fadeInDown"
+                ? 'fadeInUp'
+                : 'fadeInDown'
               : this.props.counter === 1
-                ? this.props.rightActive === true
-                  ? "goodbye"
-                  : "fadeOutDown"
-                : this.props.counter === 4
-                  ? this.props.rightActive === true
-                    ? "fadeOutUp"
-                    : "goodbye"
-                  : "goodbye"
+              ? this.props.rightActive === true
+                ? 'goodbye'
+                : 'fadeOutDown'
+              : this.props.counter === 4
+              ? this.props.rightActive === true
+                ? 'fadeOutUp'
+                : 'goodbye'
+              : 'goodbye'
           }`}
           style={{}}
         >
-          <img alt="" src={require("../../images/slackapp.png")} />
+          <img alt="" src={slackapp} />
         </div>
       </section>
-    );
+    )
   }
 }

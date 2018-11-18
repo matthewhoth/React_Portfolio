@@ -1,5 +1,13 @@
-import React from "react";
-import { Trans } from "react-i18next";
+import React from 'react'
+import { Trans } from 'react-i18next'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {
+  faDownload,
+  faMapMarkerAlt,
+  faPhone,
+  faEnvelope,
+} from '@fortawesome/free-solid-svg-icons'
+import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 
 export default class Portfolio extends React.PureComponent {
   render() {
@@ -14,7 +22,9 @@ export default class Portfolio extends React.PureComponent {
             </div>
 
             <button className="resume-download btn">
-              <i className="fas fa-download" />
+              <i>
+                <FontAwesomeIcon icon={faDownload} />
+              </i>
               <Trans i18nKey="welcome.resume" />
             </button>
           </section>
@@ -38,7 +48,9 @@ export default class Portfolio extends React.PureComponent {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i className="fas fa-map-marker-alt" />
+                  <i>
+                    <FontAwesomeIcon icon={faMapMarkerAlt} />
+                  </i>
                   <span className="i-label">
                     <Trans i18nKey="welcome.location" />
                   </span>
@@ -46,21 +58,27 @@ export default class Portfolio extends React.PureComponent {
               </li>
               <li>
                 <a href="google.com" target="_blank" rel="noopener noreferrer">
-                  <i className="fab fa-linkedin-in" />
+                  <i>
+                    <FontAwesomeIcon icon={faLinkedinIn} />
+                  </i>
                   <span className="i-label">/in/ahyeah</span>
                 </a>
               </li>
               <li>
                 <a href="https://github.com/Matthew-Yinuo" target="_blank">
-                  <i className="fab fa-github" />
+                  <i>
+                    <FontAwesomeIcon icon={faGithub} />
+                  </i>
                   <span className="i-label">
                     <Trans i18nKey="welcome.github" />
                   </span>
                 </a>
               </li>
               <li>
-                <a href="google.com">
-                  <i className="fas fa-phone" />
+                <a href="mailto:matthewhoth@gmail.com">
+                  <i>
+                    <FontAwesomeIcon icon={faPhone} />
+                  </i>
                   <span className="i-label">
                     <Trans i18nKey="welcome.phone" />
                   </span>
@@ -68,7 +86,9 @@ export default class Portfolio extends React.PureComponent {
               </li>
               <li>
                 <a href="google.com">
-                  <i className="fas fa-envelope" />
+                  <i>
+                    <FontAwesomeIcon icon={faEnvelope} />
+                  </i>
                   <span className="i-label">matthewhoth@gmail.com</span>
                 </a>
               </li>
@@ -76,6 +96,6 @@ export default class Portfolio extends React.PureComponent {
           </nav>
         </div>
       </header>
-    );
+    )
   }
 }

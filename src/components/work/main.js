@@ -1,46 +1,59 @@
-import React from "react";
-import LeftButton from "./leftbutton";
-import RightButton from "./rightbutton";
-import ProjectPicture from "./projectpicture.js";
-import ProjectInfo from "./projectinfo";
+import React from 'react'
+import LeftButton from './leftbutton'
+import RightButton from './rightbutton'
+import ProjectPicture from './projectpicture.js'
+import ProjectInfo from './projectinfo'
+import i18next from 'i18next'
+import common_ch from '../../translations/ch.json'
+import common_en from '../../translations/en.json'
+
 export default class Main extends React.Component {
   constructor(props) {
-    super(props);
-    this.state = { counter: 1, rightActive: false };
+    super(props)
+    this.state = { counter: 1, rightActive: false }
+  }
+
+  componentDidMount() {
+    if (!i18next.language) {
+      i18next.init({
+        interpolation: { escapeValue: false },
+        lng: 'en',
+        resources: {
+          en: {
+            common: common_en,
+          },
+          ch: {
+            common: common_ch,
+          },
+        },
+      })
+    }
   }
 
   handleNext() {
     this.setState({
-      rightActive: false
-    });
+      rightActive: false,
+    })
     if (this.state.counter < 5) {
       this.setState({
-        counter: this.state.counter + 1
-      });
-      console.log(this.state.counter);
+        counter: this.state.counter + 1,
+      })
     } else if (this.state.counter === 5) {
-      this.setState({ counter: 1 });
-      console.log(this.state.counter);
+      this.setState({ counter: 1 })
     }
-
-    console.log(this.state);
   }
 
   handleLast() {
     this.setState({
-      rightActive: true
-    });
+      rightActive: true,
+    })
     if (this.state.counter > 1) {
       this.setState({
-        counter: this.state.counter - 1
-      });
-      console.log(this.state.counter);
+        counter: this.state.counter - 1,
+      })
     } else if (this.state.counter === 1) {
-      this.setState({ counter: 5 });
-      console.log(this.state.counter);
+      this.setState({ counter: 5 })
     }
-
-    console.log(this.state);
   }
   render() {
     return (
@@ -64,6 +77,6 @@ export default class Main extends React.Component {
           />
         </div>
       </main>
-    );
+    )
   }
 }

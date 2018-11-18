@@ -1,10 +1,8 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import { Trans } from "react-i18next";
-
+import React from 'react'
+import { Link } from 'gatsby'
+import { Trans } from 'react-i18next'
 export default class Project extends React.PureComponent {
   render() {
-    console.log("language:", this.props.language);
     return (
       <section className="profile-section">
         <div className="project-description">
@@ -28,7 +26,7 @@ export default class Project extends React.PureComponent {
             </li>
           </ul>
         </div>
-        <Link to={`/projects`}>
+        <Link to="/projects" style={{ zIndex: 999 }}>
           <ul>
             <li className="project">
               <div className="project-image working">
@@ -42,44 +40,6 @@ export default class Project extends React.PureComponent {
                   src={require(`../images/${this.props.language}.mp4`)}
                   type="video/mp4"
                 />
-                <ul className="project-tech">
-                  <li>
-                    <i className="devicon-html5-plain" title="HTML5" />
-                  </li>
-                  <li>
-                    <i className="devicon-css3-plain" title="CSS3" />
-                  </li>
-                  <li>
-                    <i className="devicon-postgresql-plain" title="PostGres" />
-                  </li>
-                  <li>
-                    <i
-                      className="devicon-javascript-plain"
-                      title="JavaScript"
-                    />
-                  </li>
-                  <li>
-                    <i className="devicon-react-plain" title="React.js" />
-                  </li>
-                  <li>
-                    <i className="devicon-webpack-plain" title="Webpack" />
-                  </li>
-                  <li>
-                    <i className="devicon-nodejs-plain" title="Node.js" />
-                  </li>
-                  <li>
-                    <i className="devicon-express-original" title="Express" />
-                  </li>
-                  <li>
-                    <i className="devicon-visualstudio-plain" title="VS Code" />
-                  </li>
-                  <li>
-                    <i className="devicon-git-plain" title="Git" />
-                  </li>
-                  <li>
-                    <i className="devicon-github-plain" title="GitHub" />
-                  </li>
-                </ul>
               </div>
 
               <p>
@@ -89,6 +49,6 @@ export default class Project extends React.PureComponent {
           </ul>
         </Link>
       </section>
-    );
+    )
   }
 }

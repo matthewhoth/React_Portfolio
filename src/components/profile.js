@@ -1,70 +1,84 @@
-import React, { lazy, Suspense } from "react";
-import Portfolio from "./portfolio";
-import Intro from "./intro";
-import Tools from "./tools";
-import Experience from "./experience";
-import Skills from "./skills";
-import Project from "./projects";
-import i18n from "i18next";
-
-const Commits = lazy(() => import("./commits"));
+import React from 'react'
+import Portfolio from './portfolio'
+import Intro from './intro'
+import Commits from './commits'
+import Tools from './tools'
+import Experience from './experience'
+import Skills from './skills'
+import Project from './projects'
+import i18n from 'i18next'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faAngleUp } from '@fortawesome/free-solid-svg-icons'
+import { Scrollbars } from 'react-custom-scrollbars'
 
 export default class Profile extends React.PureComponent {
   constructor(props) {
-    super(props);
-    this.state = { language: i18n.language };
+    super(props)
+    this.state = { language: i18n.language }
+    this.handleClickRandomPosition = this.handleClickRandomPosition.bind(this)
   }
 
   toggleLanguage() {
-    if (this.state.language === "en") {
-      i18n.changeLanguage("ch");
-      this.setState({
-        language: "ch"
-      });
+    if (this.state.language === 'en') {
+      i18n.changeLanguage('ch')
+      this.setState({ language: 'ch' })
     } else {
-      i18n.changeLanguage("en");
-      this.setState({
-        language: "en"
-      });
+      i18n.changeLanguage('en')
+      this.setState({ language: 'en' })
     }
-    document
-      .getElementsByTagName("html")[0]
-      .setAttribute("lang", i18n.language);
+    document.getElementsByTagName('html')[0].setAttribute('lang', i18n.language)
+  }
+
+  renderThumb() {
+    return (
+      <div
+        style={{ backgroundColor: '#fb8b24', borderRadius: 15, opacity: 0.8 }}
+      />
+    )
+  }
+
+  handleClickRandomPosition() {
+    const { scrollbars } = this.refs
+    scrollbars.scrollTop(0)
   }
 
   render() {
     return (
       <main>
-        <div
-          data-simplebar
-          data-simplebar-auto-hide="false"
-          className="app-container"
+        <Scrollbars
+          style={{ height: '100vh' }}
+          universal={true}
+          renderThumbVertical={this.renderThumb}
+          ref="scrollbars"
         >
-          <a href="#top" className="sticky-default">
+          <a
+            className="sticky-default"
+            onClick={this.handleClickRandomPosition}
+          >
             <div className="sticky-button">
-              <i className="fas fa-angle-up" />
+              <i>
+                <FontAwesomeIcon icon={faAngleUp} />
+              </i>
             </div>
           </a>
-          <a href="#top-mobile" className="sticky-mobile">
+          <a className="sticky-mobile" onClick={this.handleClickRandomPosition}>
             <div className="sticky-button">
-              <i className="fas fa-angle-up" />
+              <i>
+                <FontAwesomeIcon icon={faAngleUp} />
+              </i>
             </div>
           </a>
-          <a href="#top-mobile" name="top-mobile" content="sticky button" />
           <Portfolio click={this.toggleLanguage.bind(this)} />
-          <a name="top" />
           <article className="app-profile">
             <Intro />
             <Tools />
             <Experience />
             <Project language={this.state.language} />
-            <Suspense fallback={<div>Loading...</div>}>
-              <Commits />
-            </Suspense>
+            <Commits />
             <Skills />
           </article>
-        </div>
+        </Scrollbars>
       </main>
-    );
+    )
   }
 }
