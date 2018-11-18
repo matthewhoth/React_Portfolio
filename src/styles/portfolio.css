@@ -57,6 +57,7 @@ h1 {
   text-align: center;
   width: 100%;
   z-index: 0;
+  overflow: hidden;
 }
 
 .app-portfolio svg {
