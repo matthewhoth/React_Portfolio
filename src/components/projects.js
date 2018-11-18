@@ -2,6 +2,20 @@ import React from 'react'
 import { Link } from 'gatsby'
 import { Trans } from 'react-i18next'
 export default class Project extends React.PureComponent {
+  lazyLoadHack() {
+    return (
+      <video
+        loop={true}
+        autoPlay={true}
+        preload="none"
+        className="background_video"
+        mute="true"
+        playsInline={true}
+        src={require(`../images/${this.props.language}.mp4`)}
+        type="video/mp4"
+      />
+    )
+  }
   render() {
     return (
       <section className="profile-section">
@@ -29,19 +43,7 @@ export default class Project extends React.PureComponent {
         <Link to="/projects" style={{ zIndex: 999 }}>
           <ul>
             <li className="project">
-              <div className="project-image working">
-                <video
-                  loop={true}
-                  autoPlay={true}
-                  preload="none"
-                  className="background_video"
-                  mute="true"
-                  playsInline={true}
-                  src={require(`../images/${this.props.language}.mp4`)}
-                  type="video/mp4"
-                />
-              </div>
-
+              <div className="project-image working">{this.lazyLoadHack}</div>
               <p>
                 <Trans i18nKey="pro.lorem-text" />
               </p>
