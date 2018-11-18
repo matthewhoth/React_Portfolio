@@ -3,31 +3,11 @@ import LeftButton from './leftbutton'
 import RightButton from './rightbutton'
 import ProjectPicture from './projectpicture.js'
 import ProjectInfo from './projectinfo'
-import i18next from 'i18next'
-import common_ch from '../../translations/ch.json'
-import common_en from '../../translations/en.json'
 
 export default class Main extends React.Component {
   constructor(props) {
     super(props)
     this.state = { counter: 1, rightActive: false }
-  }
-
-  componentDidMount() {
-    if (!i18next.language) {
-      i18next.init({
-        interpolation: { escapeValue: false },
-        lng: 'en',
-        resources: {
-          en: {
-            common: common_en,
-          },
-          ch: {
-            common: common_ch,
-          },
-        },
-      })
-    }
   }
 
   handleNext() {
