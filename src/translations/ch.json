@@ -15,7 +15,7 @@
     "blurb2": "。"
   },
   "toolbox": {
-    "title": "技能",
+    "title": "專業",
     "software": "軟體",
     "front": "前端",
     "back": "後端",
@@ -44,8 +44,8 @@
     "title": "個人成就",
     "trip": "Experience",
     "achievement1": "單人5000公里腳踏車旅行",
-    "achievement2": "取得了流利中文",
-    "achievement3": "硬擧我的體重三倍",
+    "achievement2": "取得流利中文能力",
+    "achievement3": "硬擧我三倍的體重",
     "achievement4": "通過了內觀十天的住宿課程"
   },
   "pro": {

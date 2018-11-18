@@ -1,5 +1,5 @@
-import React from "react";
-import { Trans } from "react-i18next";
+import React from 'react'
+import { Trans } from 'react-i18next'
 
 export default class Experience extends React.PureComponent {
   render() {
@@ -91,6 +91,6 @@ export default class Experience extends React.PureComponent {
           </li>
         </ul>
       </section>
-    );
+    )
   }
 }
