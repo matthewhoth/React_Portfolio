@@ -43,7 +43,7 @@ export default class Project extends React.PureComponent {
         <Link to="/projects" style={{ zIndex: 999 }}>
           <ul>
             <li className="project">
-              <div className="project-image working">{this.lazyLoadHack}</div>
+              <div className="project-image working">{this.lazyLoadHack()}</div>
               <p>
                 <Trans i18nKey="pro.lorem-text" />
               </p>
