@@ -1,5 +1,4 @@
 import React from 'react'
-import '.././styles/index.js'
 import IndexWrapper from '../indexWrapper'
 import { Helmet } from 'react-helmet'
 import { I18nextProvider } from 'react-i18next'
