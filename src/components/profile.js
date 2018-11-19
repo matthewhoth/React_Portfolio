@@ -15,7 +15,6 @@ export default class Profile extends React.PureComponent {
   constructor(props) {
     super(props)
     this.state = { language: i18n.language }
-    this.handleClickRandomPosition = this.handleClickRandomPosition.bind(this)
   }
 
   toggleLanguage() {
@@ -37,11 +36,6 @@ export default class Profile extends React.PureComponent {
     )
   }
 
-  handleClickRandomPosition() {
-    const { scrollbars } = this.refs
-    scrollbars.scrollTop(0)
-  }
-
   render() {
     return (
       <main>
@@ -51,17 +45,14 @@ export default class Profile extends React.PureComponent {
           renderThumbVertical={this.renderThumb}
           ref="scrollbars"
         >
-          <a
-            className="sticky-default"
-            onClick={this.handleClickRandomPosition}
-          >
+          <a className="sticky-default">
             <div className="sticky-button">
               <i>
                 <FontAwesomeIcon icon={faAngleUp} />
               </i>
             </div>
           </a>
-          <a className="sticky-mobile" onClick={this.handleClickRandomPosition}>
+          <a className="sticky-mobile">
             <div className="sticky-button">
               <i>
                 <FontAwesomeIcon icon={faAngleUp} />

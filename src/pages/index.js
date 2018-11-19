@@ -1,5 +1,4 @@
 import React from 'react'
-import '.././styles/index.js'
 import IndexWrapper from '../indexWrapper'
 import { Helmet } from 'react-helmet'
 import { I18nextProvider } from 'react-i18next'
@@ -30,10 +29,7 @@ const index = () => (
         charSet="utf-8"
       />
       <title>Matthew Hoth || Web developer </title>
-      <link
-        rel="prerender"
-        href="https://dreamy-snyder-96b00d.netlify.com/projectpage/"
-      />
+      <link rel="prerender" href="https://matthewhoth.netlify.com/projects/" />
       <link rel="icon" type="image/x-icon" href={logo} />
     </Helmet>
     <IndexWrapper />
