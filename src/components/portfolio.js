@@ -20,7 +20,7 @@ export default class Portfolio extends React.PureComponent {
                 <Trans i18nKey="welcome.language" />
               </span>
             </div>
-            <a href="/documents/resume.pdf" download>
+            <a href="/resume.pdf" download>
               <button className="resume-download btn">
                 <i>
                   <FontAwesomeIcon icon={faDownload} />
