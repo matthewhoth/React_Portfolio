@@ -1,5 +1,5 @@
-import React from "react";
-import { Trans } from "react-i18next";
+import React from 'react'
+import { Trans } from 'react-i18next'
 
 export default class Tools extends React.PureComponent {
   render() {
@@ -17,11 +17,11 @@ export default class Tools extends React.PureComponent {
             </div>
             <div className="bulleted content-subheader">
               <ul className="content-skill-list">
-                <li>Adobe Photoshop</li>
-                <li>Adobe Illustrator</li>
-                <li>Adobe InDesign</li>
-                <li>VS Code</li>
+                <li>Adobe Suite</li>
+                <li>After Effects</li>
                 <li>Docker</li>
+                <li>VS Code</li>
+                <li>Unity</li>
               </ul>
             </div>
           </li>
@@ -33,16 +33,15 @@ export default class Tools extends React.PureComponent {
             </div>
             <div className="bulleted content-subheader">
               <ul className="content-skill-list">
+                <li>React</li>
+                <li>Typescript</li>
+                <li>ES6</li>
+                <li>SCSS</li>
                 <li>CSS Grid</li>
                 <li>Flexbox</li>
                 <li>Bootstrap</li>
-                <li>JavaScript</li>
-                <li>React</li>
-                <li>Typescript</li>
-                <li>Webpack</li>
                 <li>HTML5</li>
                 <li>CSS3</li>
-                <li>SCSS</li>
                 <li>Netlify</li>
               </ul>
             </div>
@@ -55,14 +54,15 @@ export default class Tools extends React.PureComponent {
             </div>
             <div className="bulleted content-subheader">
               <ul className="content-skill-list">
-                <li>Node.js</li>
-                <li>Express</li>
-                <li>PostgreSQL</li>
-                <li>MongoDB</li>
-                <li>Axios</li>
-                <li>Sequelize</li>
                 <li>GraphQL</li>
+                <li>PostgreSQL</li>
+                <li>Apollo</li>
                 <li>Heroku</li>
+                <li>Node</li>
+                <li>Express</li>
+                <li>MongoDB</li>
+                <li>Redis</li>
+                <li>Sequelize</li>
               </ul>
             </div>
           </li>
@@ -81,6 +81,6 @@ export default class Tools extends React.PureComponent {
           </li>
         </ul>
       </section>
-    );
+    )
   }
 }
