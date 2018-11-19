@@ -124,9 +124,8 @@ h1 {
 .btn:hover,
 .btn:focus {
   color: white;
-  font-weight: 800;
   outline: 0;
-  background-color: #fafafa;
+  background-color: rgba(245, 245, 245, 0.9);
   color: rgba(251, 97, 7, 1);
   transition: 0.4s ease-in-out;
 }

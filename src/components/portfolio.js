@@ -20,13 +20,14 @@ export default class Portfolio extends React.PureComponent {
                 <Trans i18nKey="welcome.language" />
               </span>
             </div>
-
-            <button className="resume-download btn">
-              <i>
-                <FontAwesomeIcon icon={faDownload} />
-              </i>
-              <Trans i18nKey="welcome.resume" />
-            </button>
+            <a href="/static/documents/resume.pdf" download>
+              <button className="resume-download btn">
+                <i>
+                  <FontAwesomeIcon icon={faDownload} />
+                </i>
+                <Trans i18nKey="welcome.resume" />
+              </button>
+            </a>
           </section>
           <section className="portfolio-title-container">
             <div className="portfolio-title">
@@ -65,7 +66,7 @@ export default class Portfolio extends React.PureComponent {
                 </a>
               </li>
               <li>
-                <a href="https://github.com/Matthew-Yinuo" target="_blank">
+                <a href="https://github.com/matthewhoth" target="_blank">
                   <i>
                     <FontAwesomeIcon icon={faGithub} />
                   </i>

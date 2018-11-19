@@ -1,5 +1,5 @@
-import React from "react";
-import { Trans } from "react-i18next";
+import React from 'react'
+import { Trans } from 'react-i18next'
 
 export default class Intro extends React.PureComponent {
   render() {
@@ -10,12 +10,12 @@ export default class Intro extends React.PureComponent {
         </h1>
         <p>
           <Trans i18nKey="intro.blurb" />
-          <a className="profile-a" href="google.com">
+          <a className="profile-a" href="mailto:matthewhoth@gmail.com">
             <Trans i18nKey="intro.link" />
           </a>
           <Trans i18nKey="intro.blurb2" />
         </p>
       </section>
-    );
+    )
   }
 }
