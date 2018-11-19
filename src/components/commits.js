@@ -51,9 +51,7 @@ export default class Commits extends React.Component {
 
   async componentDidMount() {
     await axios
-      .get(
-        `https://api.github.com/users/matthew-yinuo/events/public?per_page=50`
-      )
+      .get(`https://api.github.com/users/matthewhoth/events/public?per_page=50`)
       .catch(error => console.log('API request error:', error))
       .then(res => {
         var pushEvents = res.data
