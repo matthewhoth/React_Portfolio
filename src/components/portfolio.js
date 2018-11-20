@@ -8,7 +8,7 @@ import {
   faEnvelope,
 } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
-import resume from './resume.pdf'
+import resume from 'url-loader?name=[path][name].[ext]!./resume.pdf'
 
 export default class Portfolio extends React.PureComponent {
   render() {
