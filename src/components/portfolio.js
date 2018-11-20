@@ -8,6 +8,7 @@ import {
   faEnvelope,
 } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+import resume from 'file-loader?name=matthewhoth_[name].[ext]!./resume.pdf'
 
 export default class Portfolio extends React.PureComponent {
   render() {
@@ -20,7 +21,7 @@ export default class Portfolio extends React.PureComponent {
                 <Trans i18nKey="welcome.language" />
               </span>
             </div>
-            <a href="/resume.pdf" download>
+            <a href="" download={resume}>
               <button className="resume-download btn">
                 <i>
                   <FontAwesomeIcon icon={faDownload} />

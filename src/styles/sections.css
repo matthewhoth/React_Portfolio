@@ -39,9 +39,6 @@ p {
   margin-bottom: 40px;
 }
 
-.profile-a {
-  border-bottom: 2px dotted #b71c1c;
-}
 a:link {
   color: inherit;
   text-decoration: none;
@@ -57,4 +54,7 @@ a:link {
   display: flex;
   justify-content: flex-end;
   margin-left: 10px;
+}
+.content-details:lang(ch) {
+  font-size: 14px;
 }

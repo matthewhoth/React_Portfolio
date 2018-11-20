@@ -15,6 +15,12 @@ export default class Profile extends React.PureComponent {
   constructor(props) {
     super(props)
     this.state = { language: i18n.language }
+    this.handleClickTop = this.handleClickTop.bind(this)
+  }
+
+  handleClickTop() {
+    const { scrollbars } = this.refs
+    scrollbars.scrollTop(0)
   }
 
   toggleLanguage() {
@@ -31,7 +37,12 @@ export default class Profile extends React.PureComponent {
   renderThumb() {
     return (
       <div
-        style={{ backgroundColor: '#fb8b24', borderRadius: 15, opacity: 0.8 }}
+        style={{
+          backgroundColor: '#fb8b24',
+          borderRadius: 15,
+          opacity: 0.8,
+          zIndex: 999,
+        }}
       />
     )
   }
@@ -45,14 +56,14 @@ export default class Profile extends React.PureComponent {
           renderThumbVertical={this.renderThumb}
           ref="scrollbars"
         >
-          <a className="sticky-default">
+          <a className="sticky-default" onClick={this.handleClickTop}>
             <div className="sticky-button">
               <i>
                 <FontAwesomeIcon icon={faAngleUp} />
               </i>
             </div>
           </a>
-          <a className="sticky-mobile">
+          <a className="sticky-mobile" onClick={this.handleClickTop}>
             <div className="sticky-button">
               <i>
                 <FontAwesomeIcon icon={faAngleUp} />
