@@ -23,22 +23,22 @@
   },
   "exp": {
     "title": "工作經歷",
-    "worktitle1": "Assistant Manager",
-    "worktitle2": "Teaching Assistant",
-    "worktitle3": "Public Speaking Teacher",
-    "worktitle4": "Work Title 4",
-    "workplace1": "Aquatic Center",
+    "worktitle1": "助理經理",
+    "worktitle2": "助教",
+    "worktitle3": "公共演講老師",
+    "worktitle4": "自由職業者",
+    "workplace1": "水池中心",
     "workplace2": "密蘇里-遼寧大學",
     "workplace3": "遼寧師範大學",
-    "workplace4": "Work Title 4",
+    "workplace4": "",
     "workdetail1": "West Plains, 密蘇里",
     "workdetail2": "中國， 大連",
     "workdetail3": "中國， 大連",
-    "workdetail4": "Freelance",
+    "workdetail4": "柬埔寨/臺灣",
     "timeframe1": "2013-2015",
     "timeframe2": "2015-2016",
     "timeframe3": "2016-2017",
-    "timeframe4": "Jan. 2017 – Mar. 2017"
+    "timeframe4": "2017-目前"
   },
   "pa": {
     "title": "個人成就",
@@ -49,11 +49,7 @@
     "achievement4": "通過了內觀十天的住宿課程"
   },
   "pro": {
-    "title": "研究作品",
-    "lorem": "亂數假文",
-    "lorem-text": "這一頁包含我最近五個項目的畫廊.我運用了廣氾的技術創造它們因爲 I don't know what to put here. I'm just trying to say I used a bunch of different technologies to explore their diffferences and made apps that covered a wide range of uses but want it to sound warm yet professional",
-    "live": "",
-    "source": ""
+    "title": "研究作品畫廊"
   },
   "projectinfo": {
     "recent": "我近期的作品",

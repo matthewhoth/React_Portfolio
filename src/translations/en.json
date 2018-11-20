@@ -26,7 +26,7 @@
     "worktitle1": "Assistant Manager",
     "worktitle2": "Teaching Assistant",
     "worktitle3": "Public Speaking Teacher",
-    "worktitle4": "Work Title 4",
+    "worktitle4": "Freelance",
     "workplace1": "Aquatic Center",
     "workplace2": "MSU-LNU",
     "workplace3": "Liaoning University",
@@ -34,11 +34,11 @@
     "workdetail1": "West Plains, MO",
     "workdetail2": "Dalian, China",
     "workdetail3": "Dalian, China",
-    "workdetail4": "Freelance",
+    "workdetail4": "Cambodia/Taiwan",
     "timeframe1": "2014-2015",
     "timeframe2": "2015-2016",
     "timeframe3": "2016-2017",
-    "timeframe4": "Jan. 2017 – Mar. 2017"
+    "timeframe4": "2017-Present"
   },
   "pa": {
     "title": "Personal Accomplishments",
@@ -49,11 +49,7 @@
     "achievement4": "Completed a Vipassanā course"
   },
   "pro": {
-    "title": "Projects",
-    "lorem": "Lorem Epsom",
-    "lorem-text": "Doots in a piece of classical Latin literature from 45 BC making it over 2000 years old. Richard McClintock, a Latinprofessor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites ",
-    "live": "",
-    "source": ""
+    "title": "Projects Gallery"
   },
   "projectinfo": {
     "recent": "Recently I've Made",
@@ -61,9 +57,9 @@
   },
   "info": {
     "fullstack": "Full-Stack Lyrics",
-    "login": "Login Component",
-    "airbnb": "Full-Stack Airbnb Lite",
-    "slack": "Full-Stack Team Message",
+    "login": "Certifikit-kat",
+    "airbnb": "WhereRnR",
+    "slack": "Slack Slinging Slasher",
     "crypto1": "Cryptocurrency",
     "crypto2": "Price Tracker",
     "website": "View Live Website",
@@ -71,10 +67,10 @@
   },
   "description": {
     "fullstack": "A full stack web application that allows users to find, create, and edit lyrics to their favorite songs. Redux is subbed out for GraphQL application due to it's bulkiness and the app's lack of reliance on state. MongoDB is used to try out a nosql database",
-    "login": "A straightforward reusable login component that leverages node and graphql for simple data transfer. Component can be subbed in for future projects",
-    "airbnb": "An airbnb clone that allows registered users to search for lodging using information such lodging type, rooms, location, and price. Hosts create listings for their rental and have sole ability to edit or delete them. Potential guests can direct message owners if they have questions or concerns. React Native version is included.",
+    "login": "A full stack web application for creating and sharing certifications. Users can create certification templates, customize credentials, and send the recipient(s) the certification straight to their email. The project has been dockerized for environmental independence",
+    "airbnb": "An airbnb clone that allows registered users to search for lodging using information such lodging type, rooms, location, and price. Hosts create listings for their rental and have sole ability to edit or delete them. Potential guests can direct message owners if they have questions or concerns. React Native version is included for mobile.",
     "slack": "A slack clone that has public channels, private channels, direct user messaging, email invitations,and file sharing. All messaging is instant and updating through redis subscriptions. User registration is verified through email",
-    "crypto": "A simple application made with React Native that displays the price of cryptocurrencies. Could be published on either android or ios platforms. "
+    "crypto": "A simple application made with React Native that displays the current price of cryptocurrencies. Able to be published on both android or ios platforms. "
   },
   "commits": {
     "title": "Recent Github Commits"

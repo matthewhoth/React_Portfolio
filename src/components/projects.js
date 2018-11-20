@@ -41,9 +41,6 @@ export default class Project extends React.PureComponent {
                   type="video/mp4"
                 />
               </div>
-              <p>
-                <Trans i18nKey="pro.lorem-text" />
-              </p>
             </li>
           </ul>
         </Link>
