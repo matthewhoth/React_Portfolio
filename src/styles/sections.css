@@ -39,9 +39,6 @@ p {
   margin-bottom: 40px;
 }
 
-.profile-a {
-  border-bottom: 2px dotted #b71c1c;
-}
 a:link {
   color: inherit;
   text-decoration: none;

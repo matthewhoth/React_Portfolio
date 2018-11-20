@@ -8,6 +8,10 @@
   .project-image {
     height: 250px;
   }
+
+  .profile-a {
+    font-size: 12px;
+  }
 }
 @media (max-width: 1299px) {
   .timeline-header,
@@ -199,6 +203,11 @@
 
   .portfolio-title h1 {
     font-size: 50px;
+  }
+
+  .profile-a {
+    border-bottom: 2px dotted #b71c1c;
+    font-size: 0.75em;
   }
 }
 
