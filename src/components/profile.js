@@ -70,7 +70,10 @@ export default class Profile extends React.PureComponent {
               </i>
             </div>
           </a>
-          <Portfolio click={this.toggleLanguage.bind(this)} />
+          <Portfolio
+            click={this.toggleLanguage.bind(this)}
+            language={this.state.language}
+          />
           <article className="app-profile">
             <Intro />
             <Tools />
