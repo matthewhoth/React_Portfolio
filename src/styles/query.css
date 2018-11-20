@@ -215,7 +215,7 @@
 
   .profile-a:lang(ch) {
     border-bottom: 2px dotted #b71c1c;
-    font-size: 12px;
+    font-size: 0.75empx;
   }
 }
 
