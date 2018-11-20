@@ -45,11 +45,7 @@ export default class Portfolio extends React.PureComponent {
           <nav className="portfolio-contact">
             <ul className="portfolio-contact-list">
               <li>
-                <a
-                  href="https://goo.gl/maps/6uY34GshTM22"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <a href="https://goo.gl/maps/6uY34GshTM22" target="_blank">
                   <i>
                     <FontAwesomeIcon icon={faMapMarkerAlt} />
                   </i>
@@ -77,7 +73,13 @@ export default class Portfolio extends React.PureComponent {
                 </a>
               </li>
               <li>
-                <a href="mailto:matthewhoth@gmail.com">
+                <a
+                  href={`tel:${
+                    this.props.language === 'en'
+                      ? '+886-905-226-140'
+                      : '0905-226-140'
+                  }`}
+                >
                   <i>
                     <FontAwesomeIcon icon={faPhone} />
                   </i>
@@ -87,7 +89,7 @@ export default class Portfolio extends React.PureComponent {
                 </a>
               </li>
               <li>
-                <a href="google.com">
+                <a href="mailto:matthewhoth@gmail.com">
                   <i>
                     <FontAwesomeIcon icon={faEnvelope} />
                   </i>
