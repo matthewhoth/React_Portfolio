@@ -12,6 +12,9 @@
   .profile-a {
     font-size: 12px;
   }
+  .profile-a:lang(ch) {
+    font-size: 12px;
+  }
 }
 @media (max-width: 1299px) {
   .timeline-header,
@@ -206,6 +209,11 @@
   }
 
   .profile-a {
+    border-bottom: 2px dotted #b71c1c;
+    font-size: 0.75em;
+  }
+
+  .profile-a:lang(ch) {
     border-bottom: 2px dotted #b71c1c;
     font-size: 0.75em;
   }
