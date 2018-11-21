@@ -57,7 +57,7 @@
   },
   "info": {
     "fullstack": "全端歌詞",
-    "login": "登錄組件",
+    "certification": "登錄組件",
     "airbnb": "地方天氣",
     "slack": "React版 slack",
     "crypto1": "加密數字貨幣",
@@ -67,7 +67,7 @@
   },
   "description": {
     "fullstack": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Doneciaculis justo non diam volutpat, vel tincidunt velit aliquet. Sedvulputate mauris non velit facilisis, nec aliquam est mattis.",
-    "login": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Doneciaculis justo non diam volutpat, vel tincidunt velit aliquet. Sedvulputate mauris non velit facilisis, nec aliquam est mattis.",
+    "certification": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Doneciaculis justo non diam volutpat, vel tincidunt velit aliquet. Sedvulputate mauris non velit facilisis, nec aliquam est mattis.",
     "airbnb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Doneciaculis justo non diam volutpat, vel tincidunt velit aliquet. Sedvulputate mauris non velit facilisis, nec aliquam est mattis.",
     "slack": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Doneciaculis justo non diam volutpat, vel tincidunt velit aliquet. Sedvulputate mauris non velit facilisis, nec aliquam est mattis.",
     "crypto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Doneciaculis justo non diam volutpat, vel tincidunt velit aliquet. Sedvulputate mauris non velit facilisis, nec aliquam est mattis."

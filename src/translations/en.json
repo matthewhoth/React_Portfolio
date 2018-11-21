@@ -57,7 +57,7 @@
   },
   "info": {
     "fullstack": "Full-Stack Lyrics",
-    "login": "Certifikit-kat",
+    "certification": "Certifikit-kat",
     "airbnb": "WhereRnR",
     "slack": "Slack Slinging Slasher",
     "crypto1": "Cryptocurrency",
@@ -67,7 +67,7 @@
   },
   "description": {
     "fullstack": "A full stack web application that allows users to find, create, and edit lyrics to their favorite songs. Redux is subbed out for GraphQL application due to it's bulkiness and the app's lack of reliance on state. MongoDB is used to try out a nosql database",
-    "login": "A full stack web application for creating and sharing certifications. Users can create certification templates, customize credentials, and send the recipient(s) the certification straight to their email. The project has been dockerized for environmental independence",
+    "certification": "A full stack web application for creating and sharing certifications. Users can create certification templates, customize credentials, and send the recipient(s) the certification straight to their email. The project has been dockerized for environmental independence",
     "airbnb": "An airbnb clone that allows registered users to search for lodging using information such lodging type, rooms, location, and price. Hosts create listings for their rental and have sole ability to edit or delete them. Potential guests can direct message owners if they have questions or concerns. React Native version is included for mobile.",
     "slack": "A slack clone that has public channels, private channels, direct user messaging, email invitations,and file sharing. All messaging is instant and updating through redis subscriptions. User registration is verified through email",
     "crypto": "A simple application made with React Native that displays the current price of cryptocurrencies. Able to be published on both android or ios platforms. "

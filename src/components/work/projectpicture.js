@@ -2,7 +2,7 @@ import React from 'react'
 import lyrical from '../../images/lyrical.png'
 import crypto from '../../images/crypto.png'
 import airbnb from '../../images/airbnb.png'
-import login from '../../images/login.png'
+import certification from '../../images/certification.png'
 import slackapp from '../../images/slackapp.png'
 
 export default class ProjectPicture extends React.PureComponent {
@@ -90,7 +90,7 @@ export default class ProjectPicture extends React.PureComponent {
           }`}
           style={{}}
         >
-          <img alt="" src={login} />
+          <img alt="" src={certification} />
         </div>
 
         <div

@@ -150,10 +150,10 @@ export default class ProjectInfo extends React.PureComponent {
           style={{}}
         >
           <h1>
-            <Trans i18nKey="info.login" />
+            <Trans i18nKey="info.certification" />
           </h1>
           <p className="techs">
-            <Trans i18nKey="description.login" />
+            <Trans i18nKey="description.certification" />
           </p>
           <div className="icons">
             <div className="sprite react" />
