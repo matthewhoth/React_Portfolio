@@ -4,13 +4,14 @@ import { Trans } from 'react-i18next'
 export default class Project extends React.PureComponent {
   render() {
     return (
-      <section className="profile-section">
-        <div className="project-description">
-          <h2>
-            <Trans i18nKey="pro.title" />
-          </h2>
-        </div>
-        <Link to="/projects">
+      <Link to="/projects">
+        <section className="profile-section">
+          <div className="project-description">
+            <h2>
+              <Trans i18nKey="pro.title" />
+            </h2>
+          </div>
+
           <ul>
             <li className="project">
               <div className="project-image working">
@@ -27,8 +28,8 @@ export default class Project extends React.PureComponent {
               </div>
             </li>
           </ul>
-        </Link>
-      </section>
+        </section>
+      </Link>
     )
   }
 }
