@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 import { Trans } from 'react-i18next'
 export default class Project extends React.PureComponent {
   render() {
@@ -8,40 +9,25 @@ export default class Project extends React.PureComponent {
           <h2>
             <Trans i18nKey="pro.title" />
           </h2>
-          <ul className="project-details">
-            <li>
-              <span className="project-details-label">
-                <a className="profile-a" href="google.com" target="_blank">
-                  <Trans i18nKey="pro.live" />
-                </a>
-              </span>
-            </li>
-            <li>
-              <span className="project-details-label">
-                <a className="profile-a" href="google.com" target="_blank">
-                  <Trans i18nKey="pro.source" />
-                </a>
-              </span>
+        </div>
+        <Link to="/projects">
+          <ul>
+            <li className="project">
+              <div className="project-image working">
+                <video
+                  loop={true}
+                  autoPlay={true}
+                  preload="none"
+                  className="background_video"
+                  muted={true}
+                  playsInline={true}
+                  src={require(`../images/${this.props.language}.mp4`)}
+                  type="video/mp4"
+                />
+              </div>
             </li>
           </ul>
-        </div>
-
-        <ul>
-          <li className="project">
-            <div className="project-image working">
-              <video
-                loop={true}
-                autoPlay={true}
-                preload="none"
-                className="background_video"
-                muted={true}
-                playsInline={true}
-                src={require(`../images/${this.props.language}.mp4`)}
-                type="video/mp4"
-              />
-            </div>
-          </li>
-        </ul>
+        </Link>
       </section>
     )
   }
