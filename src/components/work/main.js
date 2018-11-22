@@ -7,19 +7,6 @@ import common_ch from '../../translations/ch.json'
 import common_en from '../../translations/en.json'
 import i18next from 'i18next'
 
-i18next.init({
-  interpolation: { escapeValue: false },
-  lng: 'en',
-  resources: {
-    en: {
-      common: common_en,
-    },
-    ch: {
-      common: common_ch,
-    },
-  },
-})
-
 export default class Main extends React.PureComponent {
   constructor(props) {
     super(props)
@@ -54,31 +41,9 @@ export default class Main extends React.PureComponent {
 
   onComponentDidMount() {
     if (i18next.language !== 'ch') {
-      i18next.init({
-        interpolation: { escapeValue: false },
-        lng: 'ch',
-        resources: {
-          en: {
-            common: common_en,
-          },
-          ch: {
-            common: common_ch,
-          },
-        },
-      })
+      i18n.changeLanguage('ch')
     } else {
-      i18next.init({
-        interpolation: { escapeValue: false },
-        lng: 'en',
-        resources: {
-          en: {
-            common: common_en,
-          },
-          ch: {
-            common: common_ch,
-          },
-        },
-      })
+      i18n.changeLanguage('ch')
     }
   }
 
