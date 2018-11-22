@@ -3,9 +3,7 @@ import LeftButton from './leftbutton'
 import RightButton from './rightbutton'
 import ProjectPicture from './projectpicture.js'
 import ProjectInfo from './projectinfo'
-import common_ch from '../../translations/ch.json'
-import common_en from '../../translations/en.json'
-import i18next from 'i18next'
+import i18n from 'i18next'
 
 export default class Main extends React.PureComponent {
   constructor(props) {
@@ -40,7 +38,7 @@ export default class Main extends React.PureComponent {
   }
 
   onComponentDidMount() {
-    if (i18next.language !== 'ch') {
+    if (i18n.language !== 'ch') {
       i18n.changeLanguage('ch')
     } else {
       i18n.changeLanguage('ch')
