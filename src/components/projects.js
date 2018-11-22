@@ -26,9 +26,10 @@ export default class Project extends React.PureComponent {
             </li>
           </ul>
         </div>
-        <Link to="/projects" style={{ zIndex: 999 }}>
-          <ul>
-            <li className="project">
+
+        <ul>
+          <li className="project">
+            <Link to="/projects" style={{ zIndex: 999 }}>
               <div className="project-image working">
                 <video
                   loop={true}
@@ -41,9 +42,9 @@ export default class Project extends React.PureComponent {
                   type="video/mp4"
                 />
               </div>
-            </li>
-          </ul>
-        </Link>
+            </Link>
+          </li>
+        </ul>
       </section>
     )
   }
