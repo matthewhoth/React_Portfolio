@@ -40,10 +40,10 @@ export default class Main extends React.Component {
   }
 
   onComponentDidMount() {
-    if (i18next.language === 'en' || i18next.language === '') {
+    if (i18next.language === 'ch') {
       i18next.init({
         interpolation: { escapeValue: false },
-        lng: 'en',
+        lng: 'ch',
         resources: {
           en: {
             common: common_en,
@@ -53,10 +53,10 @@ export default class Main extends React.Component {
           },
         },
       })
-    } else {
+    } else if (i18next.language !== 'en') {
       i18next.init({
         interpolation: { escapeValue: false },
-        lng: 'ch',
+        lng: 'en',
         resources: {
           en: {
             common: common_en,
