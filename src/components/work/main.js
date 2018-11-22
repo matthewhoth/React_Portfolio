@@ -40,8 +40,7 @@ export default class Main extends React.PureComponent {
   }
 
   componentDidMount() {
-    i18next.language !== 'ch'
-      ? `
+    if (i18next.language !== 'ch') {
       i18next.init({
         interpolation: { escapeValue: false },
         lng: 'en',
@@ -53,8 +52,9 @@ export default class Main extends React.PureComponent {
             common: common_ch,
           },
         },
-      }) `
-      : ''
+      })
+    } else {
+    }
   }
 
   render() {
