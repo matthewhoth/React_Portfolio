@@ -5,6 +5,8 @@ import i18next from 'i18next'
 import { Helmet } from 'react-helmet'
 import logo from '../images/logoxx.ico'
 
+})
+
 const projectpage = () => (
   <I18nextProvider i18n={i18next}>
     <Helmet>

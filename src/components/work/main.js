@@ -3,6 +3,9 @@ import LeftButton from './leftbutton'
 import RightButton from './rightbutton'
 import ProjectPicture from './projectpicture.js'
 import ProjectInfo from './projectinfo'
+import common_ch from '../translations/ch.json'
+import common_en from '../translations/en.json'
+import i18next from 'i18next'
 
 export default class Main extends React.Component {
   constructor(props) {
@@ -35,6 +38,40 @@ export default class Main extends React.Component {
       this.setState({ counter: 5 })
     }
   }
+
+  onComponentDidMount() {
+    if (
+      document.getElementsByTagName('html')[0].getAttribute('lang') === 'en' ||
+      document.getElementsByTagName('html')[0].getAttribute('lang') === ''
+    ) {
+      i18next.init({
+        interpolation: { escapeValue: false },
+        lng: 'en',
+        resources: {
+          en: {
+            common: common_en,
+          },
+          ch: {
+            common: common_ch,
+          },
+        },
+      })
+    } else {
+      i18next.init({
+        interpolation: { escapeValue: false },
+        lng: 'ch',
+        resources: {
+          en: {
+            common: common_en,
+          },
+          ch: {
+            common: common_ch,
+          },
+        },
+      })
+    }
+  }
+
   render() {
     return (
       <main className="project-portfolio">
