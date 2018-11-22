@@ -39,7 +39,7 @@ export default class Main extends React.Component {
     }
   }
 
-  onComponentDidMount() {
+  onComponentWillMount() {
     if (i18next.lanugage === 'en' || i18next.lanugage === '') {
       i18next.init({
         interpolation: { escapeValue: false },
