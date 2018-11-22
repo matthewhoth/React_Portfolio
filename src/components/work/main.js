@@ -40,21 +40,20 @@ export default class Main extends React.PureComponent {
   }
 
   componentDidMount() {
-    if (i18next.language !== 'ch') {
-      i18next.init({
-        interpolation: { escapeValue: false },
-        lng: 'en',
-        resources: {
-          en: {
-            common: common_en,
+    i18next.language !== 'ch'
+      ? i18next.init({
+          interpolation: { escapeValue: false },
+          lng: 'en',
+          resources: {
+            en: {
+              common: common_en,
+            },
+            ch: {
+              common: common_ch,
+            },
           },
-          ch: {
-            common: common_ch,
-          },
-        },
-      })
-    } else {
-    }
+        })
+      : ''
   }
 
   render() {
