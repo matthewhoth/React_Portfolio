@@ -36,13 +36,11 @@ export default class Main extends React.PureComponent {
       this.setState({ counter: 5 })
     }
   }
-
+  onComponentWillMount() {
+    console.log('before' + i18n.language)
+  }
   onComponentDidMount() {
-    if (i18n.language !== 'ch') {
-      i18n.changeLanguage('ch')
-    } else {
-      i18n.changeLanguage('ch')
-    }
+    console.log('after' + i18n.language)
   }
 
   render() {
