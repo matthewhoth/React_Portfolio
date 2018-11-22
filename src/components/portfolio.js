@@ -8,7 +8,7 @@ import {
   faEnvelope,
 } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
-import resume from 'file-loader?name=matthewhoth_[name].[ext]!./resume.pdf'
+import resume from 'file-loader?name=matthewhoth_[name].[ext]!../../static/resume.pdf'
 
 export default class Portfolio extends React.PureComponent {
   render() {
@@ -21,7 +21,7 @@ export default class Portfolio extends React.PureComponent {
                 <Trans i18nKey="welcome.language" />
               </span>
             </div>
-            <a href="" download={resume}>
+            <a href="/resume.pdf" download={resume}>
               <button className="resume-download btn">
                 <i>
                   <FontAwesomeIcon icon={faDownload} />
@@ -45,11 +45,7 @@ export default class Portfolio extends React.PureComponent {
           <nav className="portfolio-contact">
             <ul className="portfolio-contact-list">
               <li>
-                <a
-                  href="https://goo.gl/maps/6uY34GshTM22"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <a href="https://goo.gl/maps/6uY34GshTM22" target="_blank">
                   <i>
                     <FontAwesomeIcon icon={faMapMarkerAlt} />
                   </i>
@@ -77,7 +73,13 @@ export default class Portfolio extends React.PureComponent {
                 </a>
               </li>
               <li>
-                <a href="mailto:matthewhoth@gmail.com">
+                <a
+                  href={`tel:${
+                    this.props.language === 'en'
+                      ? '+886-905-226-140'
+                      : '0905-226-140'
+                  }`}
+                >
                   <i>
                     <FontAwesomeIcon icon={faPhone} />
                   </i>
@@ -87,7 +89,7 @@ export default class Portfolio extends React.PureComponent {
                 </a>
               </li>
               <li>
-                <a href="google.com">
+                <a href="mailto:matthewhoth@gmail.com">
                   <i>
                     <FontAwesomeIcon icon={faEnvelope} />
                   </i>

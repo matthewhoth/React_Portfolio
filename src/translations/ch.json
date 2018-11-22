@@ -23,22 +23,22 @@
   },
   "exp": {
     "title": "工作經歷",
-    "worktitle1": "Assistant Manager",
-    "worktitle2": "Teaching Assistant",
-    "worktitle3": "Public Speaking Teacher",
-    "worktitle4": "Work Title 4",
-    "workplace1": "Aquatic Center",
+    "worktitle1": "助理經理",
+    "worktitle2": "助教",
+    "worktitle3": "公共演講老師",
+    "worktitle4": "自由職業者",
+    "workplace1": "水池中心",
     "workplace2": "密蘇里-遼寧大學",
     "workplace3": "遼寧師範大學",
-    "workplace4": "Work Title 4",
+    "workplace4": "",
     "workdetail1": "West Plains, 密蘇里",
     "workdetail2": "中國， 大連",
     "workdetail3": "中國， 大連",
-    "workdetail4": "Freelance",
+    "workdetail4": "柬埔寨/臺灣",
     "timeframe1": "2013-2015",
     "timeframe2": "2015-2016",
     "timeframe3": "2016-2017",
-    "timeframe4": "Jan. 2017 – Mar. 2017"
+    "timeframe4": "2017-目前"
   },
   "pa": {
     "title": "個人成就",
@@ -49,20 +49,16 @@
     "achievement4": "通過了內觀十天的住宿課程"
   },
   "pro": {
-    "title": "研究作品",
-    "lorem": "亂數假文",
-    "lorem-text": "這一頁包含我最近五個項目的畫廊.我運用了廣氾的技術創造它們因爲 I don't know what to put here. I'm just trying to say I used a bunch of different technologies to explore their diffferences and made apps that covered a wide range of uses but want it to sound warm yet professional",
-    "live": "",
-    "source": ""
+    "title": "研究作品畫廊"
   },
   "projectinfo": {
     "recent": "我近期的作品",
     "trip": "Experience"
   },
   "info": {
-    "fullstack": "全端歌詞",
-    "login": "登錄組件",
-    "airbnb": "地方天氣",
+    "fullstack": "全端歌詞注釋",
+    "certification": "證書生成機",
+    "airbnb": "租住宿[name]",
     "slack": "React版 slack",
     "crypto1": "加密數字貨幣",
     "crypto2": " 跟蹤器",
@@ -70,11 +66,11 @@
     "code": "查看程式碼"
   },
   "description": {
-    "fullstack": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Doneciaculis justo non diam volutpat, vel tincidunt velit aliquet. Sedvulputate mauris non velit facilisis, nec aliquam est mattis.",
-    "login": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Doneciaculis justo non diam volutpat, vel tincidunt velit aliquet. Sedvulputate mauris non velit facilisis, nec aliquam est mattis.",
-    "airbnb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Doneciaculis justo non diam volutpat, vel tincidunt velit aliquet. Sedvulputate mauris non velit facilisis, nec aliquam est mattis.",
-    "slack": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Doneciaculis justo non diam volutpat, vel tincidunt velit aliquet. Sedvulputate mauris non velit facilisis, nec aliquam est mattis.",
-    "crypto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Doneciaculis justo non diam volutpat, vel tincidunt velit aliquet. Sedvulputate mauris non velit facilisis, nec aliquam est mattis."
+    "fullstack": "一個全端網絡應用程式, 允許用戶查找、創建和編輯他們喜愛聽的歌詞。由於redux的體積龐大, 因為這應用程式不依賴state，redux 被取代地用於 graphql。mongodb 是用來試 nosql的數據庫",
+    "certification": "一個全端網絡應用程式，用於創建和共享證書。用戶可以創建認證模板，自定義憑證，也可以把證書直接發送到收件人的電子。這個項目使用docker把它儅環境獨立的。",
+    "airbnb": "一個 airbnb種類的網絡應用程式, 允許註冊用戶使用住宿類型、房間、地點和價格搜索住宿。屋主為其租賃創建列表, 並且只有屋主能編輯或刪除清單。潛在的客人有問題或疑慮的話, 可以直接轉訊息給屋主。還有用React Native的手機應用版",
+    "slack": "一個slack種類的網絡應用程式，有公共和私人渠道，有直接通訊能力，有電子郵件邀請，還有文件共享能力。利用Redis訂閲確保所有的消息都是即時的。通過電子驗證用戶註冊",
+    "crypto": "使用 react 製作的一個簡單網絡應用程式, 用於顯示加密貨幣的現在的價格。能發佈到 android 或 ios 平台上"
   },
   "commits": {
     "title": "最近的Github提交"

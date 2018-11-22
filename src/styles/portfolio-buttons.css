@@ -71,33 +71,33 @@ aside img {
 }
 
 .pictureL1 {
-  background-image: url("../images/lyricaltint.png");
+  background-image: url('../images/lyricaltint.png');
 }
 .pictureL2 {
-  background-image: url("../images/cryptotint.png");
+  background-image: url('../images/cryptotint.png');
 }
 .pictureL3 {
-  background-image: url("../images/airbnbtint.png");
+  background-image: url('../images/airbnbtint.png');
 }
 .pictureL4 {
-  background-image: url("../images/logintint.png");
+  background-image: url('../images/certificationtint.png');
 }
 .pictureL5 {
-  background-image: url("../images/slackapptint.png");
+  background-image: url('../images/slackapptint.png');
 }
 
 .pictureR1 {
-  background-image: url("../images/lyricaltintd.png");
+  background-image: url('../images/lyricaltintd.png');
 }
 .pictureR2 {
-  background-image: url("../images/cryptotintd.png");
+  background-image: url('../images/cryptotintd.png');
 }
 .pictureR3 {
-  background-image: url("../images/airbnbtintd.png");
+  background-image: url('../images/airbnbtintd.png');
 }
 .pictureR4 {
-  background-image: url("../images/logintintd.png");
+  background-image: url('../images/certificationtintd.png');
 }
 .pictureR5 {
-  background-image: url("../images/slackapptintd.png");
+  background-image: url('../images/slackapptintd.png');
 }
