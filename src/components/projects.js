@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import { Trans } from 'react-i18next'
 export default class Project extends React.PureComponent {
   render() {
@@ -29,20 +28,18 @@ export default class Project extends React.PureComponent {
 
         <ul>
           <li className="project">
-            <Link to="/projects" style={{ zIndex: 999 }}>
-              <div className="project-image working">
-                <video
-                  loop={true}
-                  autoPlay={true}
-                  preload="none"
-                  className="background_video"
-                  muted={true}
-                  playsInline={true}
-                  src={require(`../images/${this.props.language}.mp4`)}
-                  type="video/mp4"
-                />
-              </div>
-            </Link>
+            <div className="project-image working">
+              <video
+                loop={true}
+                autoPlay={true}
+                preload="none"
+                className="background_video"
+                muted={true}
+                playsInline={true}
+                src={require(`../images/${this.props.language}.mp4`)}
+                type="video/mp4"
+              />
+            </div>
           </li>
         </ul>
       </section>
