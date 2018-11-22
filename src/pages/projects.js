@@ -9,7 +9,7 @@ import logo from '../images/logoxx.ico'
 
 i18next.init({
   interpolation: { escapeValue: false },
-  lng: 'en',
+  lng: 'ch',
   resources: {
     en: {
       common: common_en,
