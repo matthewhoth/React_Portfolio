@@ -1,5 +1,5 @@
-import React from "react";
-import { Trans } from "react-i18next";
+import React from 'react'
+import { Trans } from 'react-i18next'
 export default class ProjectInfo extends React.PureComponent {
   render() {
     return (
@@ -11,99 +11,17 @@ export default class ProjectInfo extends React.PureComponent {
           className={`1 box c animated  ${
             this.props.counter === 1
               ? this.props.rightActive === true
-                ? "fadeInDown"
-                : "fadeInUp"
+                ? 'fadeInDown'
+                : 'fadeInUp'
               : this.props.counter === 2
-                ? this.props.rightActive === true
-                  ? "goodbye"
-                  : "fadeOutUp"
-                : this.props.counter === 5
-                  ? this.props.rightActive === true
-                    ? "fadeOutDown"
-                    : "goodbye"
-                  : "goodbye"
-          }`}
-          style={{}}
-        >
-          <h1>
-            <Trans i18nKey="info.fullstack" />
-          </h1>
-          <p className="techs">
-            <Trans i18nKey="description.fullstack" />
-          </p>
-          <div className="icons">
-            <div className="sprite react" />
-            <div className="sprite graph" />
-            <div className="sprite node" />
-            <div className="sprite mongo" />
-          </div>
-          <div className="view site">
-            <a href="google.com" title="Go to website.com" target="_blank">
-              <Trans i18nKey="info.website" />
-            </a>
-          </div>
-          <div className="view code">
-            <a href="google.com" title="view code">
-              <Trans i18nKey="info.code" />
-            </a>
-          </div>
-        </div>
-        <div
-          className={`1 box c animated ${
-            this.props.counter === 2
               ? this.props.rightActive === true
-                ? "fadeInDown"
-                : "fadeInUp"
-              : this.props.counter === 3
-                ? this.props.rightActive === true
-                  ? "goodbye"
-                  : "fadeOutUp"
-                : this.props.counter === 1
-                  ? this.props.rightActive === true
-                    ? "fadeOutDown"
-                    : "goodbye"
-                  : "goodbye"
-          }`}
-          style={{}}
-        >
-          <h1>
-            <Trans i18nKey="info.crypto1" /> <br />
-            <Trans i18nKey="info.crypto2" />
-          </h1>
-          <p className="techs">
-            <Trans i18nKey="description.crypto" />
-          </p>
-          <div className="icons">
-            <div className="sprite flexbox" />
-            <div className="sprite native" />
-            <div className="sprite redux" />
-          </div>
-          <div className="view site">
-            <a href="google.com" title="google.com" target="_blank">
-              <Trans i18nKey="info.website" />
-            </a>
-          </div>
-          <div className="view code">
-            <a href="google.com" title="view code">
-              <Trans i18nKey="info.code" />
-            </a>
-          </div>
-        </div>
-        <div
-          className={`3 box c animated  ${
-            this.props.counter === 3
+                ? 'goodbye'
+                : 'fadeOutUp'
+              : this.props.counter === 5
               ? this.props.rightActive === true
-                ? "fadeInDown"
-                : "fadeInUp"
-              : this.props.counter === 4
-                ? this.props.rightActive === true
-                  ? "goodbye"
-                  : "fadeOutUp"
-                : this.props.counter === 2
-                  ? this.props.rightActive === true
-                    ? "fadeOutDown"
-                    : "goodbye"
-                  : "goodbye"
+                ? 'fadeOutDown'
+                : 'goodbye'
+              : 'goodbye'
           }`}
           style={{}}
         >
@@ -121,71 +39,34 @@ export default class ProjectInfo extends React.PureComponent {
             <div className="sprite postgres" />
           </div>
           <div className="view site">
-            <a href="google.com" title="google.com" target="_blank">
+            <a
+              href="https://festive-shannon-eea836.netlify.com/"
+              target="_blank"
+            >
               <Trans i18nKey="info.website" />
             </a>
           </div>
           <div className="view code">
-            <a href="google.com" title="view code">
-              <Trans i18nKey="info.code" />
-            </a>
-          </div>
-        </div>
-        <div
-          className={`4 box c animated  ${
-            this.props.counter === 4
-              ? this.props.rightActive === true
-                ? "fadeInDown"
-                : "fadeInUp"
-              : this.props.counter === 5
-                ? this.props.rightActive === true
-                  ? "goodbye"
-                  : "fadeOutUp"
-                : this.props.counter === 3
-                  ? this.props.rightActive === true
-                    ? "fadeOutDown"
-                    : "goodbye"
-                  : "goodbye"
-          }`}
-          style={{}}
-        >
-          <h1>
-            <Trans i18nKey="info.certification" />
-          </h1>
-          <p className="techs">
-            <Trans i18nKey="description.certification" />
-          </p>
-          <div className="icons">
-            <div className="sprite react" />
-            <div className="sprite graph" />
-            <div className="sprite node" />
-          </div>
-          <div className="view site">
-            <a href="google.com" title="google.com" target="_blank">
-              <Trans i18nKey="info.website" />
-            </a>
-          </div>
-          <div className="view code">
-            <a href="google.com" title="view code">
+            <a href="https://github.com/matthewhoth/WhereRnR">
               <Trans i18nKey="info.code" />
             </a>
           </div>
         </div>
         <div
           className={`1 box c animated  ${
-            this.props.counter === 5
+            this.props.counter === 2
               ? this.props.rightActive === true
-                ? "fadeInDown"
-                : "fadeInUp"
+                ? 'fadeInDown'
+                : 'fadeInUp'
+              : this.props.counter === 3
+              ? this.props.rightActive === true
+                ? 'goodbye'
+                : 'fadeOutUp'
               : this.props.counter === 1
-                ? this.props.rightActive === true
-                  ? "goodbye"
-                  : "fadeOutUp"
-                : this.props.counter === 4
-                  ? this.props.rightActive === true
-                    ? "fadeOutDown"
-                    : "goodbye"
-                  : "goodbye"
+              ? this.props.rightActive === true
+                ? 'fadeOutDown'
+                : 'goodbye'
+              : 'goodbye'
           }`}
           style={{}}
         >
@@ -208,12 +89,138 @@ export default class ProjectInfo extends React.PureComponent {
             </a>
           </div>
           <div className="view code">
-            <a href="google.com" title="view code">
+            <a
+              href="https://github.com/matthewhoth/Slack_Slinger_Slasher"
+              title="view code"
+            >
+              <Trans i18nKey="info.code" />
+            </a>
+          </div>
+        </div>
+        <div
+          className={`3 box c animated  ${
+            this.props.counter === 3
+              ? this.props.rightActive === true
+                ? 'fadeInDown'
+                : 'fadeInUp'
+              : this.props.counter === 4
+              ? this.props.rightActive === true
+                ? 'goodbye'
+                : 'fadeOutUp'
+              : this.props.counter === 2
+              ? this.props.rightActive === true
+                ? 'fadeOutDown'
+                : 'goodbye'
+              : 'goodbye'
+          }`}
+          style={{}}
+        >
+          <h1>
+            <Trans i18nKey="info.certification" />
+          </h1>
+          <p className="techs">
+            <Trans i18nKey="description.certification" />
+          </p>
+          <div className="icons">
+            <div className="sprite react" />
+            <div className="sprite graph" />
+            <div className="sprite node" />
+          </div>
+          <div className="view site">
+            <a href="google.com" title="google.com" target="_blank">
+              <Trans i18nKey="info.website" />
+            </a>
+          </div>
+          <div className="view code">
+            <a
+              href="https://github.com/matthewhoth/Certifikit-kat"
+              title="view code"
+            >
+              <Trans i18nKey="info.code" />
+            </a>
+          </div>
+        </div>
+        <div
+          className={`4 box c animated  ${
+            this.props.counter === 4
+              ? this.props.rightActive === true
+                ? 'fadeInDown'
+                : 'fadeInUp'
+              : this.props.counter === 5
+              ? this.props.rightActive === true
+                ? 'goodbye'
+                : 'fadeOutUp'
+              : this.props.counter === 3
+              ? this.props.rightActive === true
+                ? 'fadeOutDown'
+                : 'goodbye'
+              : 'goodbye'
+          }`}
+          style={{}}
+        >
+          <h1>
+            <Trans i18nKey="info.fullstack" />
+          </h1>
+          <p className="techs">
+            <Trans i18nKey="description.fullstack" />
+          </p>
+          <div className="icons">
+            <div className="sprite react" />
+            <div className="sprite graph" />
+            <div className="sprite node" />
+            <div className="sprite mongo" />
+          </div>
+
+          <div className="view code solo">
+            <a
+              href="https://github.com/matthewhoth/Lyricorice"
+              title="view code"
+            >
+              <Trans i18nKey="info.code" />
+            </a>
+          </div>
+        </div>
+        <div
+          className={`1 box c animated ${
+            this.props.counter === 5
+              ? this.props.rightActive === true
+                ? 'fadeInDown'
+                : 'fadeInUp'
+              : this.props.counter === 1
+              ? this.props.rightActive === true
+                ? 'goodbye'
+                : 'fadeOutUp'
+              : this.props.counter === 4
+              ? this.props.rightActive === true
+                ? 'fadeOutDown'
+                : 'goodbye'
+              : 'goodbye'
+          }`}
+          style={{}}
+        >
+          <h1>
+            <Trans i18nKey="info.crypto1" /> <br />
+            <Trans i18nKey="info.crypto2" />
+          </h1>
+          <p className="techs">
+            <Trans i18nKey="description.crypto" />
+          </p>
+          <div className="icons">
+            <div className="sprite flexbox" />
+            <div className="sprite native" />
+            <div className="sprite redux" />
+          </div>
+
+          <div className="view code solo">
+            <a
+              href="https://github.com/matthewhoth/NativeCryptoApp"
+              title="view code"
+            >
               <Trans i18nKey="info.code" />
             </a>
           </div>
         </div>
       </nav>
-    );
+    )
   }
 }
