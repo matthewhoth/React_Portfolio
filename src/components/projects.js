@@ -4,32 +4,16 @@ import { Trans } from 'react-i18next'
 export default class Project extends React.PureComponent {
   render() {
     return (
-      <section className="profile-section">
-        <div className="project-description">
-          <h2>
-            <Trans i18nKey="pro.title" />
-          </h2>
-          <ul className="project-details">
-            <li>
-              <span className="project-details-label">
-                <a className="profile-a" href="google.com" target="_blank">
-                  <Trans i18nKey="pro.live" />
-                </a>
-              </span>
-            </li>
-            <li>
-              <span className="project-details-label">
-                <a className="profile-a" href="google.com" target="_blank">
-                  <Trans i18nKey="pro.source" />
-                </a>
-              </span>
-            </li>
-          </ul>
-        </div>
+      <Link to="/projects">
+        <section className="profile-section">
+          <div className="project-description">
+            <h2>
+              <Trans i18nKey="pro.title" />
+            </h2>
+          </div>
 
-        <ul>
-          <li className="project">
-            <Link to="/projects" style={{ zIndex: 999 }}>
+          <ul>
+            <li className="project">
               <div className="project-image working">
                 <video
                   loop={true}
@@ -42,10 +26,10 @@ export default class Project extends React.PureComponent {
                   type="video/mp4"
                 />
               </div>
-            </Link>
-          </li>
-        </ul>
-      </section>
+            </li>
+          </ul>
+        </section>
+      </Link>
     )
   }
 }
