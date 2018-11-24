@@ -42,12 +42,13 @@ export default class ProjectInfo extends React.PureComponent {
             <a
               href="https://festive-shannon-eea836.netlify.com/"
               target="_blank"
+              rel="noopener"
             >
               <Trans i18nKey="info.website" />
             </a>
           </div>
           <div className="view code">
-            <a href="https://github.com/matthewhoth/WhereRnR">
+            <a href="https://github.com/matthewhoth/WhereRnR" rel="noopener">
               <Trans i18nKey="info.code" />
             </a>
           </div>
@@ -88,6 +89,7 @@ export default class ProjectInfo extends React.PureComponent {
             <a
               href="https://github.com/matthewhoth/Slack_Slinger_Slasher"
               title="view code"
+              rel="noopener"
             >
               <Trans i18nKey="info.code" />
             </a>
@@ -127,6 +129,7 @@ export default class ProjectInfo extends React.PureComponent {
             <a
               href="https://github.com/matthewhoth/Certifikit-kat"
               title="view code"
+              rel="noopener"
             >
               <Trans i18nKey="info.code" />
             </a>
@@ -167,6 +170,7 @@ export default class ProjectInfo extends React.PureComponent {
             <a
               href="https://github.com/matthewhoth/Lyricorice"
               title="view code"
+              rel="noopener"
             >
               <Trans i18nKey="info.code" />
             </a>
@@ -207,6 +211,7 @@ export default class ProjectInfo extends React.PureComponent {
             <a
               href="https://github.com/matthewhoth/NativeCryptoApp"
               title="view code"
+              rel="noopener"
             >
               <Trans i18nKey="info.code" />
             </a>
