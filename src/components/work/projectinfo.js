@@ -83,12 +83,8 @@ export default class ProjectInfo extends React.PureComponent {
             <div className="sprite node" />
             <div className="sprite docker" />
           </div>
-          <div className="view site">
-            <a href="google.com" title="google.com" target="_blank">
-              <Trans i18nKey="info.website" />
-            </a>
-          </div>
-          <div className="view code">
+
+          <div className="view code solo">
             <a
               href="https://github.com/matthewhoth/Slack_Slinger_Slasher"
               title="view code"
@@ -126,12 +122,8 @@ export default class ProjectInfo extends React.PureComponent {
             <div className="sprite graph" />
             <div className="sprite node" />
           </div>
-          <div className="view site">
-            <a href="google.com" title="google.com" target="_blank">
-              <Trans i18nKey="info.website" />
-            </a>
-          </div>
-          <div className="view code">
+
+          <div className="view code solo">
             <a
               href="https://github.com/matthewhoth/Certifikit-kat"
               title="view code"
