@@ -14,9 +14,7 @@ export default class Main extends React.PureComponent {
   }
 
   handleNext() {
-    this.setState({
-      rightActive: false,
-    })
+    this.setState({ rightActive: false })
     if (this.state.counter < 5) {
       this.setState({
         counter: this.state.counter + 1,
@@ -27,9 +25,7 @@ export default class Main extends React.PureComponent {
   }
 
   handleLast() {
-    this.setState({
-      rightActive: true,
-    })
+    this.setState({ rightActive: true })
     if (this.state.counter > 1) {
       this.setState({
         counter: this.state.counter - 1,
@@ -38,6 +34,7 @@ export default class Main extends React.PureComponent {
       this.setState({ counter: 5 })
     }
   }
+  /* eslint-disable */
 
   componentDidMount() {
     i18next.language !== 'ch'
@@ -56,6 +53,7 @@ export default class Main extends React.PureComponent {
       : ''
   }
 
+  /* eslint-enable */
   render() {
     return (
       <main className="project-portfolio">

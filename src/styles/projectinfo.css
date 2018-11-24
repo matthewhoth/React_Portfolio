@@ -18,7 +18,7 @@
     grid-column: col-start / span 12;
     grid-row: 1 / 4;
     color: #ee510a;
-    font-family: "Dancing Script", cursive;
+    font-family: 'Dancing Script', cursive;
     font-weight: 700;
     font-size: 20px;
   }
@@ -93,6 +93,10 @@
   .site {
     margin-top: 15px;
     margin-bottom: 15px;
+  }
+
+  .solo {
+    margin-top: 25px;
   }
 
   a {
