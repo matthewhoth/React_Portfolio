@@ -212,10 +212,6 @@
   .profile-a {
     font-size: 0.75em;
   }
-
-  .profile-a:lang(ch) {
-    font-size: 12px;
-  }
 }
 
 @media (max-height: 499px) {
