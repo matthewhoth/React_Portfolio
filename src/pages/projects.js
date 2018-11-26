@@ -13,7 +13,7 @@ const projectpage = () => (
         content="width=device-width, initial-scale=1.0"
         charSet="utf-8"
       />
-      <title>Matthew Hoth || Web developer </title>
+      <title>Matthew Hoth || Projects</title>
       <link rel="icon" type="image/x-icon" href={logo} />
     </Helmet>
     <ProjectWrapper />
