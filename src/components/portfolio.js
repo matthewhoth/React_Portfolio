@@ -59,14 +59,6 @@ export default class Portfolio extends React.PureComponent {
                 </a>
               </li>
               <li>
-                <a href="google.com" target="_blank" rel="noopener noreferrer">
-                  <i>
-                    <FontAwesomeIcon icon={faLinkedinIn} />
-                  </i>
-                  <span className="i-label">/in/ahyeah</span>
-                </a>
-              </li>
-              <li>
                 <a
                   href="https://github.com/matthewhoth"
                   target="_blank"
