@@ -38,16 +38,7 @@ export default class ProjectInfo extends React.PureComponent {
             <div className="sprite redis" />
             <div className="sprite postgres" />
           </div>
-          <div className="view site">
-            <a
-              href="https://festive-shannon-eea836.netlify.com/"
-              target="_blank"
-              rel="noopener"
-            >
-              <Trans i18nKey="info.website" />
-            </a>
-          </div>
-          <div className="view code">
+          <div className="view code solo">
             <a href="https://github.com/matthewhoth/WhereRnR" rel="noopener">
               <Trans i18nKey="info.code" />
             </a>
