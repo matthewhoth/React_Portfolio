@@ -21,7 +21,7 @@ export default class Portfolio extends React.PureComponent {
                 <Trans i18nKey="welcome.language" />
               </span>
             </div>
-            <a href="/resume.pdf" download={resume}>
+            <a href="/resume.pdf" name="Resume Link" download={resume}>
               <button className="resume-download btn">
                 <i>
                   <FontAwesomeIcon icon={faDownload} />
@@ -49,6 +49,7 @@ export default class Portfolio extends React.PureComponent {
                   href="https://goo.gl/maps/6uY34GshTM22"
                   rel="noopener"
                   target="_blank"
+                  name="Address Link"
                 >
                   <i>
                     <FontAwesomeIcon icon={faMapMarkerAlt} />
@@ -63,6 +64,7 @@ export default class Portfolio extends React.PureComponent {
                   href="https://github.com/matthewhoth"
                   target="_blank"
                   rel="noopener"
+                  name="Github Link"
                 >
                   <i>
                     <FontAwesomeIcon icon={faGithub} />
@@ -79,6 +81,7 @@ export default class Portfolio extends React.PureComponent {
                       ? '+886-905-226-140'
                       : '0905-226-140'
                   }`}
+                  name="Phone Number"
                 >
                   <i>
                     <FontAwesomeIcon icon={faPhone} />
@@ -89,7 +92,7 @@ export default class Portfolio extends React.PureComponent {
                 </a>
               </li>
               <li>
-                <a href="mailto:matthewhoth@gmail.com">
+                <a href="mailto:matthewhoth@gmail.com" name="Email Address">
                   <i>
                     <FontAwesomeIcon icon={faEnvelope} />
                   </i>

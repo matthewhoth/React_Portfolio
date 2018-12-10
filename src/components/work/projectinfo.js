@@ -39,7 +39,12 @@ export default class ProjectInfo extends React.PureComponent {
             <div className="sprite postgres" />
           </div>
           <div className="view code solo">
-            <a href="https://github.com/matthewhoth/WhereRnR" rel="noopener">
+            <a
+              href="https://github.com/matthewhoth/WhereRnR"
+              rel="noopener"
+              title="view code"
+              name="Link to Github Project"
+            >
               <Trans i18nKey="info.code" />
             </a>
           </div>
@@ -80,6 +85,7 @@ export default class ProjectInfo extends React.PureComponent {
             <a
               href="https://github.com/matthewhoth/Slack_Slinger_Slasher"
               title="view code"
+              name="Link to Github Project"
               rel="noopener"
             >
               <Trans i18nKey="info.code" />
@@ -120,6 +126,7 @@ export default class ProjectInfo extends React.PureComponent {
             <a
               href="https://github.com/matthewhoth/Certifikit-kat"
               title="view code"
+              name="Link to Github Project"
               rel="noopener"
             >
               <Trans i18nKey="info.code" />
@@ -162,6 +169,7 @@ export default class ProjectInfo extends React.PureComponent {
               href="https://github.com/matthewhoth/Lyricorice"
               title="view code"
               rel="noopener"
+              name="Link to Github Project"
             >
               <Trans i18nKey="info.code" />
             </a>
@@ -203,6 +211,7 @@ export default class ProjectInfo extends React.PureComponent {
               href="https://github.com/matthewhoth/NativeCryptoApp"
               title="view code"
               rel="noopener"
+              name="Link to Github Project"
             >
               <Trans i18nKey="info.code" />
             </a>
