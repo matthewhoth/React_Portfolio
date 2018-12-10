@@ -15,6 +15,7 @@ const projectpage = () => (
       />
       <title>Matthew Hoth || Projects</title>
       <link rel="icon" type="image/x-icon" href={logo} />
+      <noscript>This app requires Javascript to run properly</noscript>
     </Helmet>
     <ProjectWrapper />
   </I18nextProvider>
