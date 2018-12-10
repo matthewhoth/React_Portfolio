@@ -26,6 +26,7 @@ export default class Commits extends React.Component {
               className="profile-a commit-repo"
               target="_blank"
               rel="noopener noreferrer"
+              name="Github commit link"
             >
               {gitData.repo.name}
             </a>

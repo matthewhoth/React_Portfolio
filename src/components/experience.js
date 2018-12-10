@@ -20,7 +20,12 @@ export default class Experience extends React.PureComponent {
             </div>
             <div className="bulleted content-subheader timeline-subheader">
               <div className="subheader-title">
-                <a className="profile-a" href="google.com" target="_blank">
+                <a
+                  className="profile-a"
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Trans i18nKey="exp.workplace1" />
                 </a>
               </div>
@@ -40,7 +45,12 @@ export default class Experience extends React.PureComponent {
             </div>
             <div className="bulleted content-subheader timeline-subheader">
               <div className="subheader-title">
-                <a className="profile-a" href="google.com" target="_blank">
+                <a
+                  className="profile-a"
+                  href=""
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   <Trans i18nKey="exp.workplace2" />
                 </a>
               </div>
@@ -60,7 +70,12 @@ export default class Experience extends React.PureComponent {
             </div>
             <div className="bulleted content-subheader timeline-subheader">
               <div className="subheader-title">
-                <a className="profile-a" href="google.com" target="_blank">
+                <a
+                  className="profile-a"
+                  href=""
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   <Trans i18nKey="exp.workplace3" />
                 </a>
               </div>
@@ -80,7 +95,12 @@ export default class Experience extends React.PureComponent {
             </div>
             <div className="bulleted content-subheader timeline-subheader">
               <div className="subheader-title">
-                <a className="profile-a" href="google.com" target="_blank">
+                <a
+                  className="profile-a"
+                  href=""
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   <Trans i18nKey="exp.workplace4" />
                 </a>
               </div>

@@ -10,7 +10,11 @@ export default class Intro extends React.PureComponent {
         </h1>
         <p>
           <Trans i18nKey="intro.blurb" />
-          <a className="profile-a" href="mailto:matthewhoth@gmail.com">
+          <a
+            className="profile-a"
+            href="mailto:matthewhoth@gmail.com"
+            name="E-mail Address"
+          >
             <Trans i18nKey="intro.link" />
           </a>
           <Trans i18nKey="intro.blurb2" />

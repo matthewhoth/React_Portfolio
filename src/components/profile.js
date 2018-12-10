@@ -56,14 +56,22 @@ export default class Profile extends React.PureComponent {
           renderThumbVertical={this.renderThumb}
           ref="scrollbars"
         >
-          <a className="sticky-default" onClick={this.handleClickTop}>
+          <a
+            className="sticky-default"
+            name="Return to top button"
+            onClick={this.handleClickTop}
+          >
             <div className="sticky-button">
               <i>
                 <FontAwesomeIcon icon={faAngleUp} />
               </i>
             </div>
           </a>
-          <a className="sticky-mobile" onClick={this.handleClickTop}>
+          <a
+            className="sticky-mobile"
+            name="Return to top button"
+            onClick={this.handleClickTop}
+          >
             <div className="sticky-button">
               <i>
                 <FontAwesomeIcon icon={faAngleUp} />

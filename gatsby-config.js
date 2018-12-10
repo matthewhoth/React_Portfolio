@@ -17,7 +17,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Matthew Hoth's Portoflio`,
-        short_name: `Matthew's Port`,
+        short_name: `Matthew Hoth`,
         start_url: '/',
         background_color: '#663399',
         theme_color: '#663399',
