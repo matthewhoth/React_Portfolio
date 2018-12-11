@@ -8,10 +8,7 @@ import common_en from '../../translations/en.json'
 import i18next from 'i18next'
 
 export default class Main extends React.PureComponent {
-  constructor(props) {
-    super(props)
-    this.state = { counter: 1, rightActive: false }
-  }
+  state = { counter: 1, rightActive: false }
 
   handleNext() {
     this.setState({ rightActive: false })

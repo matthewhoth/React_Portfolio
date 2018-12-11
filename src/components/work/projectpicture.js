@@ -27,7 +27,7 @@ export default class ProjectPicture extends React.PureComponent {
           }`}
           style={{}}
         >
-          <img alt="" src={airbnb} />
+          <img alt="Wherebnb project" src={airbnb} />
         </div>
 
         <div
@@ -48,7 +48,7 @@ export default class ProjectPicture extends React.PureComponent {
           }`}
           style={{}}
         >
-          <img alt="" src={slackapp} />
+          <img alt="Group instant messenger" src={slackapp} />
         </div>
 
         <div
@@ -69,7 +69,7 @@ export default class ProjectPicture extends React.PureComponent {
           }`}
           style={{}}
         >
-          <img alt="" src={certification} />
+          <img alt="certification app" src={certification} />
         </div>
 
         <div
@@ -90,7 +90,7 @@ export default class ProjectPicture extends React.PureComponent {
           }`}
           style={{}}
         >
-          <img alt="" src={lyrical} />
+          <img alt="lyric database app" src={lyrical} />
         </div>
 
         <div
@@ -111,7 +111,7 @@ export default class ProjectPicture extends React.PureComponent {
           }`}
           style={{}}
         >
-          <img alt="" src={crypto} />
+          <img alt="crypto price app" src={crypto} />
         </div>
       </section>
     )

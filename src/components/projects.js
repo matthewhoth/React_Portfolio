@@ -4,7 +4,7 @@ import { Trans } from 'react-i18next'
 export default class Project extends React.PureComponent {
   render() {
     return (
-      <Link to="/projects">
+      <Link to="/projects" role="navigation to projects" tabIndex="6">
         <section className="profile-section">
           <div className="project-description">
             <h2>
@@ -19,6 +19,7 @@ export default class Project extends React.PureComponent {
                   loop={true}
                   autoPlay={true}
                   preload="none"
+                  alt="Video preview of projects page"
                   className="background_video"
                   muted={true}
                   playsInline={true}

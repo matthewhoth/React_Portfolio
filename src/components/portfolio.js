@@ -7,7 +7,7 @@ import {
   faPhone,
   faEnvelope,
 } from '@fortawesome/free-solid-svg-icons'
-import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import resume from 'file-loader?name=matthewhoth_[name].[ext]!../../static/resume.pdf'
 
 export default class Portfolio extends React.PureComponent {
@@ -16,12 +16,18 @@ export default class Portfolio extends React.PureComponent {
       <header className="app-portfolio-container">
         <div className="app-portfolio">
           <section className="portfolio-resume">
-            <div className="ribbon ribbon-top-left">
-              <span onClick={this.props.click}>
+            <div role="language toggle" className="ribbon ribbon-top-left">
+              <span onClick={this.props.click} tabIndex="2">
                 <Trans i18nKey="welcome.language" />
               </span>
             </div>
-            <a href="/resume.pdf" name="Resume Link" download={resume}>
+            <a
+              tabIndex="3"
+              href="/resume.pdf"
+              role="resume download button"
+              name="Resume Link"
+              download={resume}
+            >
               <button className="resume-download btn">
                 <i>
                   <FontAwesomeIcon icon={faDownload} />
@@ -42,14 +48,20 @@ export default class Portfolio extends React.PureComponent {
               </h1>
             </div>
           </section>
-          <nav className="portfolio-contact">
+          <nav
+            className="portfolio-contact"
+            role="list of contact options"
+            tabIndex="9"
+          >
             <ul className="portfolio-contact-list">
               <li>
                 <a
                   href="https://goo.gl/maps/6uY34GshTM22"
                   rel="noopener"
                   target="_blank"
-                  name="Address Link"
+                  name="Physical Address Link"
+                  role="link to physical address"
+                  tabIndex="10"
                 >
                   <i>
                     <FontAwesomeIcon icon={faMapMarkerAlt} />
@@ -65,6 +77,8 @@ export default class Portfolio extends React.PureComponent {
                   target="_blank"
                   rel="noopener"
                   name="Github Link"
+                  role="link to github"
+                  tabIndex="10"
                 >
                   <i>
                     <FontAwesomeIcon icon={faGithub} />
@@ -82,6 +96,8 @@ export default class Portfolio extends React.PureComponent {
                       : '0905-226-140'
                   }`}
                   name="Phone Number"
+                  role="phone number"
+                  tabIndex="11"
                 >
                   <i>
                     <FontAwesomeIcon icon={faPhone} />
@@ -92,7 +108,12 @@ export default class Portfolio extends React.PureComponent {
                 </a>
               </li>
               <li>
-                <a href="mailto:matthewhoth@gmail.com" name="Email Address">
+                <a
+                  href="mailto:matthewhoth@gmail.com"
+                  name="Email Address"
+                  role="link to email address"
+                  tabIndex="12"
+                >
                   <i>
                     <FontAwesomeIcon icon={faEnvelope} />
                   </i>

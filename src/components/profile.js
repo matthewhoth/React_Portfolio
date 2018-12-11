@@ -12,11 +12,7 @@ import { faAngleUp } from '@fortawesome/free-solid-svg-icons'
 import { Scrollbars } from 'react-custom-scrollbars'
 
 export default class Profile extends React.PureComponent {
-  constructor(props) {
-    super(props)
-    this.state = { language: i18n.language }
-    this.handleClickTop = this.handleClickTop.bind(this)
-  }
+  state = { language: i18n.language }
 
   handleClickTop() {
     const { scrollbars } = this.refs
@@ -59,7 +55,8 @@ export default class Profile extends React.PureComponent {
           <a
             className="sticky-default"
             name="Return to top button"
-            onClick={this.handleClickTop}
+            onClick={this.handleClickTop.bind(this)}
+            tabIndex="13"
           >
             <div className="sticky-button">
               <i>
@@ -70,7 +67,8 @@ export default class Profile extends React.PureComponent {
           <a
             className="sticky-mobile"
             name="Return to top button"
-            onClick={this.handleClickTop}
+            onClick={this.handleClickTop.bind(this)}
+            tabIndex="13"
           >
             <div className="sticky-button">
               <i>

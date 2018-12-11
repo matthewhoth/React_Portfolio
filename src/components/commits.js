@@ -5,13 +5,9 @@ import 'moment/locale/zh-tw'
 import i18n from 'i18next'
 import { Trans } from 'react-i18next'
 
-export default class Commits extends React.Component {
-  constructor(props) {
-    super(props)
-
-    this.state = {
-      gitData: [],
-    }
+export default class Commits extends React.PureComponent {
+  state = {
+    gitData: [],
   }
 
   turts() {
@@ -78,7 +74,7 @@ export default class Commits extends React.Component {
 
   render() {
     return (
-      <section className="profile-section">
+      <section className="profile-section" role="Github commits" tabIndex="7">
         <h2>
           <Trans i18nKey="commits.title" />
         </h2>
