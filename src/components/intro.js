@@ -4,11 +4,11 @@ import { Trans } from 'react-i18next'
 export default class Intro extends React.PureComponent {
   render() {
     return (
-      <section className="profile-section">
+      <section role="profile introduction" className="profile-section">
         <h1 className="profile-title">
           <Trans i18nKey="intro.title" />
         </h1>
-        <p>
+        <p tabIndex="1">
           <Trans i18nKey="intro.blurb" />
           <a
             className="profile-a"

@@ -4,7 +4,11 @@ import { Trans } from 'react-i18next'
 export default class Experience extends React.PureComponent {
   render() {
     return (
-      <section className="profile-section">
+      <section
+        role="work experience details"
+        className="profile-section"
+        tabIndex="5"
+      >
         <h2>
           <Trans i18nKey="exp.title" />
         </h2>
