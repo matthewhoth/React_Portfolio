@@ -16,7 +16,7 @@
   }
   .a {
     grid-column: col-start / span 12;
-    grid-row: 1 / 4;
+    grid-row: 1 / 2;
     color: #ee510a;
     font-family: 'Dancing Script', cursive;
     font-weight: 700;
@@ -24,7 +24,7 @@
   }
   .c {
     grid-column: col-start / span 12;
-    grid-row: 5 / 12;
+    grid-row: 2 / 12;
     display: flex;
     flex-direction: column;
     align-items: center;
