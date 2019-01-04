@@ -18,7 +18,7 @@ ul {
   border: 1px solid #fb8b24;
   border-radius: 50%;
   bottom: 0;
-  content: "";
+  content: '';
   height: 7px;
   left: 0;
   margin-left: -3px;
@@ -29,7 +29,7 @@ ul {
 .vertical-line::after {
   background-color: #fb8b24;
   bottom: 0;
-  content: "";
+  content: '';
   left: 0;
   position: absolute;
   top: 5px;
@@ -51,6 +51,7 @@ ul {
 .content-header {
   font-size: 14px;
   margin-bottom: 5px;
+  max-width: 100%;
 }
 
 .content-title {
@@ -79,7 +80,7 @@ ul {
   background-color: #fb8b24;
   border: 1px solid transparent;
   border-radius: 50%;
-  content: "";
+  content: '';
   height: 7px;
   margin-left: -43px;
   left: 0;
