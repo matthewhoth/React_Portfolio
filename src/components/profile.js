@@ -85,7 +85,7 @@ export default class Profile extends React.PureComponent {
             <Tools />
             <Experience />
             <Project language={this.state.language} />
-            <Commits />
+            <Commits language={this.state.language} />
             <Skills />
           </article>
         </Scrollbars>

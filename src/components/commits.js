@@ -28,7 +28,7 @@ export default class Commits extends React.PureComponent {
             </a>
           </div>
           <div className="content-details">
-            {i18n.language === 'en'
+            {this.props.language === 'en'
               ? moment(gitData.date)
                   .locale('en')
                   .format('MMM Do YYYY')
