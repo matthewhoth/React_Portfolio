@@ -74,7 +74,7 @@ export default class Commits extends React.PureComponent {
 
   render() {
     return (
-      <section className="profile-section" role="Github commits" tabIndex="7">
+      <section className="profile-section" tabIndex="7">
         <h2>
           <Trans i18nKey="commits.title" />
         </h2>

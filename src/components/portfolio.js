@@ -16,7 +16,7 @@ export default class Portfolio extends React.PureComponent {
       <header className="app-portfolio-container">
         <div className="app-portfolio">
           <section className="portfolio-resume">
-            <div role="language toggle" className="ribbon ribbon-top-left">
+            <div className="ribbon ribbon-top-left">
               <span onClick={this.props.click} tabIndex="2">
                 <Trans i18nKey="welcome.language" />
               </span>
@@ -24,7 +24,6 @@ export default class Portfolio extends React.PureComponent {
             <a
               tabIndex="3"
               href="/resume.pdf"
-              role="resume download button"
               name="Resume Link"
               download={resume}
             >
@@ -48,11 +47,7 @@ export default class Portfolio extends React.PureComponent {
               </h1>
             </div>
           </section>
-          <nav
-            className="portfolio-contact"
-            role="list of contact options"
-            tabIndex="9"
-          >
+          <nav className="portfolio-contact" tabIndex="9">
             <ul className="portfolio-contact-list">
               <li>
                 <a
@@ -60,7 +55,6 @@ export default class Portfolio extends React.PureComponent {
                   rel="noopener"
                   target="_blank"
                   name="Physical Address Link"
-                  role="link to physical address"
                   tabIndex="10"
                 >
                   <i>
@@ -77,7 +71,6 @@ export default class Portfolio extends React.PureComponent {
                   target="_blank"
                   rel="noopener"
                   name="Github Link"
-                  role="link to github"
                   tabIndex="10"
                 >
                   <i>
@@ -96,7 +89,6 @@ export default class Portfolio extends React.PureComponent {
                       : '0905-226-140'
                   }`}
                   name="Phone Number"
-                  role="phone number"
                   tabIndex="11"
                 >
                   <i>
@@ -111,7 +103,6 @@ export default class Portfolio extends React.PureComponent {
                 <a
                   href="mailto:matthewhoth@gmail.com"
                   name="Email Address"
-                  role="link to email address"
                   tabIndex="12"
                 >
                   <i>

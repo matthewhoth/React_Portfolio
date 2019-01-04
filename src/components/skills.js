@@ -3,11 +3,7 @@ import { Trans } from 'react-i18next'
 export default class Skills extends React.PureComponent {
   render() {
     return (
-      <section
-        role="list of personal accomplishments"
-        className="profile-section"
-        tabIndex="8"
-      >
+      <section className="profile-section" tabIndex="8">
         <h2>
           <Trans i18nKey="pa.title" />
         </h2>

@@ -4,7 +4,7 @@ import { Trans } from 'react-i18next'
 export default class Tools extends React.PureComponent {
   render() {
     return (
-      <section role="list of tools" className="profile-section" tabIndex="4">
+      <section className="profile-section" tabIndex="4">
         <h2>
           <Trans i18nKey="toolbox.title" />
         </h2>

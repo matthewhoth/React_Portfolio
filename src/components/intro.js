@@ -4,7 +4,7 @@ import { Trans } from 'react-i18next'
 export default class Intro extends React.PureComponent {
   render() {
     return (
-      <section role="profile introduction" className="profile-section">
+      <section className="profile-section">
         <h1 className="profile-title">
           <Trans i18nKey="intro.title" />
         </h1>
