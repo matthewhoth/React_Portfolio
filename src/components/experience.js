@@ -4,11 +4,7 @@ import { Trans } from 'react-i18next'
 export default class Experience extends React.PureComponent {
   render() {
     return (
-      <section
-        role="work experience details"
-        className="profile-section"
-        tabIndex="5"
-      >
+      <section className="profile-section" tabIndex="5">
         <h2>
           <Trans i18nKey="exp.title" />
         </h2>
@@ -26,7 +22,7 @@ export default class Experience extends React.PureComponent {
               <div className="subheader-title">
                 <a
                   className="profile-a"
-                  href=""
+                  href="http://www.westplainsparksandrec.com/aquatic-center.html"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -51,7 +47,7 @@ export default class Experience extends React.PureComponent {
               <div className="subheader-title">
                 <a
                   className="profile-a"
-                  href=""
+                  href="http://www.lnnu.edu.cn/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -76,7 +72,7 @@ export default class Experience extends React.PureComponent {
               <div className="subheader-title">
                 <a
                   className="profile-a"
-                  href=""
+                  href="http://www.lnnu.edu.cn/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >

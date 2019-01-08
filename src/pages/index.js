@@ -28,11 +28,15 @@ const index = () => (
         content="width=device-width, initial-scale=1.0"
         charSet="utf-8"
       />
+      <noscript>
+        Your browser's JavaScript is turned off! Turn it on to explore this JS
+        built site. https://www.enable-javascript.com/
+      </noscript>
       <title>Matthew Hoth</title>
       <link rel="prerender" href="https://matthewhoth.netlify.com/projects/" />
       <link rel="icon" type="image/x-icon" href={logo} />
-      <noscript>This app requires Javascript to run properly</noscript>
     </Helmet>
+
     <IndexWrapper />
   </I18nextProvider>
 )

@@ -13,9 +13,12 @@ const projectpage = () => (
         content="width=device-width, initial-scale=1.0"
         charSet="utf-8"
       />
+      <noscript>
+        Your browser's JavaScript is turned off! Turn it on to explore this JS
+        built site. https://www.enable-javascript.com/
+      </noscript>
       <title>Matthew Hoth || Projects</title>
       <link rel="icon" type="image/x-icon" href={logo} />
-      <noscript>This app requires Javascript to run properly</noscript>
     </Helmet>
     <ProjectWrapper />
   </I18nextProvider>

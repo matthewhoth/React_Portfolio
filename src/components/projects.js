@@ -4,7 +4,7 @@ import { Trans } from 'react-i18next'
 export default class Project extends React.PureComponent {
   render() {
     return (
-      <Link to="/projects" role="navigation to projects" tabIndex="6">
+      <Link to="/projects" tabIndex="6">
         <section className="profile-section">
           <div className="project-description">
             <h2>

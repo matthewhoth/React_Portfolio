@@ -89,6 +89,9 @@
   .view {
     border: 2px solid #e61c3f;
     padding: 5px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
   }
   .site {
     margin-top: 15px;
