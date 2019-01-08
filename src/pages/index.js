@@ -28,7 +28,7 @@ const index = () => (
         content="width=device-width, initial-scale=1.0"
         charSet="utf-8"
       />
-
+      <noscript>Your browser does not support JavaScript!</noscript>
       <title>Matthew Hoth</title>
       <link rel="prerender" href="https://matthewhoth.netlify.com/projects/" />
       <link rel="icon" type="image/x-icon" href={logo} />

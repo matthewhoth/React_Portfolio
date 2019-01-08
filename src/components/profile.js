@@ -46,6 +46,14 @@ export default class Profile extends React.PureComponent {
   render() {
     return (
       <main>
+        <noscript>
+          <div style="border: 1px solid purple; padding: 10px">
+            <span style="color:red">
+              JavaScript is not enabled! Please enable it for a better website
+              browsing experience.
+            </span>
+          </div>
+        </noscript>
         <Scrollbars
           style={{ height: '100vh' }}
           universal={true}
