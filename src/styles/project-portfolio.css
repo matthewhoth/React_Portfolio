@@ -9,6 +9,10 @@
   margin: 0;
 }
 
+.project-ul {
+  margin-bottom: 30px;
+}
+
 .portfolio-title-top:lang(ch) {
   font-size: 70px;
   line-height: 1.25em;
@@ -20,8 +24,8 @@ button span:lang(ch) {
 }
 
 body:lang(ch) {
-  font-family: "FangSong", "仿宋", STFangSong, "华文仿宋", "KaiTi", "楷体",
-    STKaiti, "华文楷体";
+  font-family: 'FangSong', '仿宋', STFangSong, '华文仿宋', 'KaiTi', '楷体',
+    STKaiti, '华文楷体';
 }
 
 .profile-section h2:lang(ch) {
@@ -29,7 +33,7 @@ body:lang(ch) {
 }
 
 h1:lang(ch) {
-  font-family: "FangSong", STFangsong;
+  font-family: 'FangSong', STFangsong;
 }
 
 .content-header:lang(ch) {
@@ -84,7 +88,7 @@ li a:lang(ch) {
     line-height: 1.25;
     padding: 15px;
     color: black;
-    font-family: "Roboto Condensed", sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-weight: normal;
   }
   .box h1 {
@@ -93,7 +97,7 @@ li a:lang(ch) {
     text-align: center;
     text-transform: uppercase;
     color: black;
-    font-family: "Alegreya", serif;
+    font-family: 'Alegreya', serif;
     font-weight: 700;
     margin: 0.5em 0 0.5em 0;
   }
