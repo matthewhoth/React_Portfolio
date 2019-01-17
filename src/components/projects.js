@@ -12,7 +12,7 @@ export default class Project extends React.PureComponent {
             </h2>
           </div>
 
-          <ul>
+          <ul className="project-ul">
             <li className="project">
               <div className="project-image working">
                 <video
